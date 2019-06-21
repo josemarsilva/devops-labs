@@ -21,7 +21,7 @@ Os cenários poderão conter diagramas de contexto. Serão usados os diagramas U
 
 
 ---
-## 2. Estudo de Caso
+## 2. Documentação
 
 ### 2.1. Cenários
 
