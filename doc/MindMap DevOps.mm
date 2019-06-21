@@ -13,8 +13,7 @@
       <font size="4"><i>Mind Map</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="gohome"/>
 <node CREATED="1560511984776" ID="ID_1173631083" MODIFIED="1561075653255" POSITION="left">
 <richcontent TYPE="NODE"><html>
@@ -72,8 +71,7 @@
       <b><font size="4">Tools &amp; Stack</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="list"/>
 </node>
 <node CREATED="1560512025839" ID="ID_672184253" MODIFIED="1561075653255" POSITION="right">
@@ -132,13 +130,12 @@
       <b><font size="4">Culture</font></b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="list"/>
 <node CREATED="1561156922814" ID="ID_284583337" MODIFIED="1561157555744" TEXT="Education">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1561156922814" ID="ID_423511767" MODIFIED="1561157369779" TEXT="Politics">
+<node CREATED="1561156922814" ID="ID_423511767" MODIFIED="1561158393868" TEXT="Commitment">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
