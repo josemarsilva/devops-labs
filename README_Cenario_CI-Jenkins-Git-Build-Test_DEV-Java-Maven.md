@@ -1,12 +1,12 @@
-# README - devops-labs - Cenario_CI-Jenkins-Git_DEV-Java
+# README - devops-labs - Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven
 
 ## 1. Introdução
 
 ### 1.1. Objetivo
-O objetivo deste cenário é demonstrar a ferramenta **Jenkins** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java**, em seguida compila o aplicativo gerando um código executável e finalmente aplicativo.
+O objetivo deste cenário é demonstrar a ferramenta **Jenkins** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java**, em seguida o **Jenkins** faz o **Build** com base no **Maven**, executa os testes unitários **Unit Test** já previstas na programação e gera o binário do aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps CI-Jenkins-Git_DEV-Java.png](doc/MindMap%20DevOps%20CI-Jenkins-Git_DEV-Java.png)
+![MindMap DevOps CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/MindMap%20DevOps%20CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
 
 
 ### 1.3. Tópicos abordados
@@ -14,10 +14,8 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 * CI - Continuos Integration
 * Jenkins
 * Job do Jenkins executando `git pull`
-* Job do Jenkins compilando um programa Java
-* Job do Jenkins executando uma classe Java
-* Linguagem de programação Java
-* Automação do processo de compilação, distribuição do código executável e execução
+* Job do Jenkins fazendo o build da aplicação com o Maven
+* Automação do processo de Build e UnitTest
 * Cultura do compromisso de ter o código fonte em um repositório (neste caso GitHub)
 
 ---
@@ -29,17 +27,21 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/UseCaseDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
 
-* Diagrama de Contexto da aplicação `Hello.java`
+* Diagrama de Contexto da aplicação `java-simplecalc-cli`
+A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
-A aplicação [`Hello.java`](https://github.com/josemarsilva/eval-jenkins/blob/master/src/java/Hello.java) é extremamente simples e imprime na console 10x a frase "Hello World Java".
+![java-simplecalc-cli-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-cli/blob/master/doc/UseCaseDiagram-Context.png)
+
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/DeployDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![DeployDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/DeployDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
+
+
 
 ### c. BPMN
-![BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![BPMN-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/BPMN-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
 
 
 ---
@@ -97,12 +99,12 @@ java -cp . Hello
 * Passo 3: Observe que na lateral esquerda, abaixo do menu, o Jenkins apresenta o `Histórico de builds`, isto é o histórico da construção dos builds. O primeiro de cima para baixo e maior número sequencial, deve ser a execução do seu job. Clique no link da construção do seu `build`
 * Passo 4: Observe que o formulário de detalhamento do build de um job `/job/[nome-do-job/[numero-da-build]/` apresentará detalhes da execução. Você tem acesso a detalhes como: status de execução, data e hora completa da execução, tempo de execução, etc
 
-![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_build.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_build.png)
+![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_build.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_build.png)
 
 * Passo 5: Clique no link ![jenkins-icon-console.png](doc/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
 
-![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png)
-![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png)
+![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_console1.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_console1.png)
+![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_console2.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_console2.png)
 
 ---
 ## 3. Conclusão
@@ -115,4 +117,4 @@ java -cp . Hello
 ---
 ## I - Referências
 
-* [Jenkins instalado](https://github.com/josemarsilva/eval-jenkins)
+* [Java SimpleCalc Cli - Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli)
