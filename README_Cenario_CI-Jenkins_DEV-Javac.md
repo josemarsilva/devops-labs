@@ -17,7 +17,8 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 * Job do Jenkins compilando um programa Java
 * Job do Jenkins executando uma classe Java
 * Linguagem de programação Java
-
+* Automação do processo de compilação, distribuição do código executável e execução
+* Cultura do compromisso de ter o código fonte em um repositório (neste caso GitHub)
 
 ---
 ## 2. Cenário
