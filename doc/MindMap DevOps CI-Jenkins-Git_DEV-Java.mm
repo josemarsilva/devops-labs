@@ -97,9 +97,6 @@
 <icon BUILTIN="button_ok"/>
 <node CREATED="1561306068484" ID="ID_1103171240" MODIFIED="1561309045075" TEXT="Java">
 <icon BUILTIN="button_ok"/>
-<node CREATED="1561306080856" ID="ID_50979217" MODIFIED="1561306104773" TEXT="Apache CLI">
-<icon BUILTIN="button_ok"/>
-</node>
 </node>
 </node>
 </node>
@@ -338,9 +335,6 @@
 <icon BUILTIN="button_ok"/>
 <node CREATED="1561306405661" ID="ID_759937739" MODIFIED="1561309045075" TEXT="Java">
 <icon BUILTIN="button_ok"/>
-<node CREATED="1561306080856" ID="ID_1780594589" MODIFIED="1561306104773" TEXT="Apache CLI">
-<icon BUILTIN="button_ok"/>
-</node>
 </node>
 </node>
 <node CREATED="1561306459728" ID="ID_547342853" MODIFIED="1561306894509" TEXT="CT">
