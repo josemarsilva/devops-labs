@@ -37,7 +37,7 @@ A aplicação [`Hello.java`](https://github.com/josemarsilva/eval-jenkins/blob/m
 ![DeployDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/DeployDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png)
 
 ### c. BPMN
-"[BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png](BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png](BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png)
 
 
 ---
