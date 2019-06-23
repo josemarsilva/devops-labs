@@ -93,13 +93,13 @@ java -cp . Hello
 * Objetivo: Executar o Job `CI_Jenkins_Dev_Java` configurado na etapa anterior, observar e analisar os resultados
 
 * Passo 1: Na página principal do Jenkins, na lista de jobs cadastrados, localize e clique sobre o link do job `CI_Jenkins_Dev_Java` configurado na etapa anterior
-* Passo 2: No formulário de detalhamento do job `/job/[jobname]`, clique no item do menu lateral esquerdo ![jenkins-icon-buildnow](doc/jenkins-icon-buildnow) `Construir agora`
+* Passo 2: No formulário de detalhamento do job `/job/[jobname]`, clique no item do menu lateral esquerdo ![jenkins-icon-buildnow.png](doc/jenkins-icon-buildnow.png) `Construir agora`
 * Passo 3: Observe que na lateral esquerda, abaixo do menu, o Jenkins apresenta o `Histórico de builds`, isto é o histórico da construção dos builds. O primeiro de cima para baixo e maior número sequencial, deve ser a execução do seu job. Clique no link da construção do seu `build`
 * Passo 4: Observe que o formulário de detalhamento do build de um job `/job/[nome-do-job/[numero-da-build]/` apresentará detalhes da execução. Você tem acesso a detalhes como: status de execução, data e hora completa da execução, tempo de execução, etc
 
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java-build.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java-build.png)
 
-* Passo 5: Clique no link ![jenkins-icon-console](doc/jenkins-icon-console) `Saída do console` para observar os detalhes da execução do job
+* Passo 5: Clique no link ![jenkins-icon-console.png](doc/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
 
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png)
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png)

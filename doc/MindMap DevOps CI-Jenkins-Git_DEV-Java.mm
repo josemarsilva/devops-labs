@@ -51,9 +51,8 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1560512156115" ID="ID_718213434" MODIFIED="1561306739342" TEXT="Code">
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="button_ok"/>
+<node CREATED="1560512156115" ID="ID_718213434" MODIFIED="1561327780318" TEXT="Code">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1561256637139" ID="ID_1263394487" MODIFIED="1561309719818">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -101,7 +100,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1560512013898" ID="ID_1498968330" MODIFIED="1561308651316" POSITION="left">
+<node CREATED="1560512013898" FOLDED="true" ID="ID_1498968330" MODIFIED="1561327843737" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
