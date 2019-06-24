@@ -75,9 +75,13 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-04.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-04.png)
 
-* Passo 5: Clique no item do menu lateral esquerdo ![jenkins-icon-buildnow.png](doc/jenkins-icon-buildnow.png) `Construir agora`
 
-* Passo 6: Clique no link ![jenkins-icon-console.png](doc/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
+---
+### 2.5. Guia de Demonstração
+
+* Passo 1: Clique no item do menu lateral esquerdo ![jenkins-icon-buildnow.png](doc/jenkins-icon-buildnow.png) `Construir agora`
+
+* Passo 2: Clique no link ![jenkins-icon-console.png](doc/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
 
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-05.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-05.png)
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-06.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-06.png)
@@ -87,12 +91,9 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 
 
 ---
-### 2.5. Guia de Demonstração
-
-
----
 ## 3. Conclusão
-
+* Observe que neste cenário o Jenkins fez as atividades de "Source Code Management", "Build", "Unit Test", de forma automática
+* Observe que configuramos o __goals__ `package` no Maven e ele gerou o ".jar" da aplicação, porém ainda não fizemos o "Deploy" desta aplicação 
 
 ---
 ## I - Referências
