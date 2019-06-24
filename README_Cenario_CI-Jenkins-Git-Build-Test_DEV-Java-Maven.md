@@ -48,9 +48,7 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 ### 2.2. Pré requisitos
 
 * [Jenkins instalado](https://github.com/josemarsilva/eval-jenkins)
-  * [Jenkins instalado Windows](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-InstallJenkins.md)
-* [Novo Job tipo FreeStyle Execute Shell Compila e Executa um programa Java com codigo fonte baixado do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobFreestyleExecShellGitJavacJavaRun.md)
-* Jenkins Master ou Slave configurado em máquina com Sistema Operacional Windows
+* [Instalação do Plugin Maven Integration](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-MavenJenkins.md)
 
 
 ---
@@ -60,6 +58,35 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 
 ---
 ### 2.4. Guia de Configuração
+
+* Passo 1: Crie um novo Job chamado com o nome `CI-Jenkins-Git-Build-Test_DEV-Java-Maven` do tipo ``Construir um projeto Maven`
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-01.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-01.png)
+
+* Passo 2: Na configuração do Job informe o endereço do repositório `https://github.com/josemarsilva/java-simplecalc-cli.git` do projeto [`java-simplecalc-cli` Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli) :
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-02.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-02.png)
+
+* Passo 3: Na configuração do Job, na sessão `Construir` informe os __goals__ (metas e opções) do Maven para o projeto: `clean compile test package`
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-03.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-03.png)
+
+* Passo 4: Clique no botão `Salvar` para salvar as configurações do Job criada
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-04.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-04.png)
+
+* Passo 5: Clique no item do menu lateral esquerdo ![jenkins-icon-buildnow.png](doc/jenkins-icon-buildnow.png) `Construir agora`
+
+* Passo 6: Clique no link ![jenkins-icon-console.png](doc/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-05.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-05.png)
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-06.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-06.png)
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-07.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-07.png)
+
+[jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-08.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-08.png)
+
 
 
 ---
@@ -74,3 +101,4 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 ## I - Referências
 
 * [Java SimpleCalc Cli - Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli)
+* [Configurando Jenkins e Maven](https://www.tutorialspoint.com/jenkins/jenkins_maven_setup.htm)
