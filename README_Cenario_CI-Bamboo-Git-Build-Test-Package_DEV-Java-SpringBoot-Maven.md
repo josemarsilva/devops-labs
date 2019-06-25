@@ -29,7 +29,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 ![UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
 
-* Diagrama de Contexto da aplicação `java-simplecalc-cli`
+* Diagrama de Contexto da aplicação `java-simplecalc-spring-boot`
 A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
 ![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/doc/UseCaseDiagram-Context.png)
@@ -49,6 +49,7 @@ A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão p
 
 * [Bamboo instalado](https://github.com/josemarsilva/eval-jenkins)
 * [Guia de Instalação Bamboo Server para Windows](README-GuiaInstalacao-Bambo-Windows.md)
+* Maven 3.6.x instaldo
 
 
 ---
