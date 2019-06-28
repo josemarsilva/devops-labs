@@ -1,9 +1,9 @@
-# README-README-GuiaInstalacao-Bambo-Windows.md
+# README-GuiaInstalacao-Bambo-Windows.md
 
 
 ## 1. Introdução
 
-O objetivo deste guia de configuração é **Instalar o Jenkins em uma instância EC2 da AWS**. 
+O objetivo deste guia de configuração é **Instalar** o **Bamboo Server** em uma máquina **Windows**. 
 
 
 ### 2. Premissas
