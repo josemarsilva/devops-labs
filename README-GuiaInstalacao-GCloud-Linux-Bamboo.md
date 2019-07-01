@@ -62,7 +62,7 @@ sudo apt update
 * Passo 1: Link para download
 [Download Bamboo](https://www.atlassian.com/software/bamboo/download)
 
-* Passo 2: Faça uploade de sua máquina local para a VM
+* Passo 2: Faça upload de sua máquina local para a VM
 
 ![gcloud-create-vm-instance-12](doc/gcloud-create-vm-instance-12.png)
 ![gcloud-create-vm-instance-13](doc/gcloud-create-vm-instance-13.png)
@@ -72,13 +72,29 @@ sudo apt update
 
 Passo 1: Descompactar o pacote baixado `atlassian-bamboo-6.9.1.tar` (seu número de versão pode variar)
 
+```sh
+mkdir /opt
+cd /opt
+tar -xvf ~/atlassian-bamboo-6.9.1.tar
+```
+
+Passo 2: Execute o Bamboo pela primeira vez
+
+```sh
+cd /opt/atlassian-bamboo-6.9.1/bin
+sudo start-bamboo.sh
+```
+
+Passo 3: 
 
 
 
 ## Referências ##
 
-[GCloud Quick Start](https://cloud.google.com/compute/docs/quickstart-linux)
-[Instância do GCloud](https://cloud.google.com/compute/docs/instances/?hl=pt-br)
-[Create a Linux VM on Google Cloud Platform (GCP)](https://www.youtube.com/watch?v=2d5LzJNj46w)
-[Google Cloud Plataform - GCloud](https://cloud.google.com/)
-[Download Bamboo](https://www.atlassian.com/software/bamboo/download)
+* [GCloud Quick Start](https://cloud.google.com/compute/docs/quickstart-linux)
+* [Instância do GCloud](https://cloud.google.com/compute/docs/instances/?hl=pt-br)
+* [Create a Linux VM on Google Cloud Platform (GCP)](https://www.youtube.com/watch?v=2d5LzJNj46w)
+* [Google Cloud Plataform - GCloud](https://cloud.google.com/)
+* [Download Bamboo](https://www.atlassian.com/software/bamboo/download)
+* [Vídeo Deploy Containeger Google Cloud Engine](https://www.youtube.com/watch?v=wKiW1nufh1k)
+* [Tutorial create GCloud Kubernets](https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app)

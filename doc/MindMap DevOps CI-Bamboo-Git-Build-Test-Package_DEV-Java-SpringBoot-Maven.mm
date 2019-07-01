@@ -74,7 +74,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1561256876461" ID="ID_986045375" MODIFIED="1561306836405" TEXT="Code Quality">
+<node CREATED="1561256876461" ID="ID_986045375" MODIFIED="1561904328193" TEXT="Code Review">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
 </node>
@@ -106,8 +106,7 @@
       Spring-Boot
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1561329955249" ID="ID_79307702" MODIFIED="1561329960657" TEXT="Maven">
@@ -146,7 +145,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1561330811518" TEXT="Integrated Test">
+<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1561904551169" TEXT="Integration Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
 </node>
@@ -408,8 +407,7 @@
       Spring-Boot
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1561329955249" ID="ID_72154994" MODIFIED="1561329960657" TEXT="Maven">

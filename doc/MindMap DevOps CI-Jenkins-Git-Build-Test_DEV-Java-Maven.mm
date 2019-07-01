@@ -74,7 +74,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1561256876461" ID="ID_986045375" MODIFIED="1561306836405" TEXT="Code Quality">
+<node CREATED="1561256876461" ID="ID_986045375" MODIFIED="1561904269807" TEXT="Code Review">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
 </node>
@@ -109,8 +109,7 @@
       commons-cli
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1561329955249" ID="ID_79307702" MODIFIED="1561329960657" TEXT="Maven">
@@ -149,7 +148,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1561330811518" TEXT="Integrated Test">
+<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1561904483915" TEXT="Integration Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
 </node>
@@ -316,8 +315,7 @@
       (pom.xml)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1561330872838" ID="ID_132058984" MODIFIED="1561330943473">
@@ -333,8 +331,7 @@
       developer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>

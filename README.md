@@ -11,7 +11,7 @@ O DevOps é um conjunto de práticas que automatizam os processos entre equipes 
 
 
 ### 1.3. Como os cenários estão organizados
-A estratégia deste projeto é __agrupar os cenários em tópicos__ por critérios comuns e ordem crescente de complexidade. Será comum encontrar um cenário que referencie um cenário anteriormente descrito, extendendo-o para uma nova funcionalidade. 
+A estratégia deste projeto é __agrupar os cenários em tópicos__ por critérios comuns e ordem crescente, conforme o estágio de maturidade e complexidade. Será comum encontrar um cenário que referencie um cenário anteriormente descrito, extendendo-o para uma nova funcionalidade (maior maturidade). 
 
 Os cenários serão organizados em tópicos comuns, com objetivo de dar uniformidade a leitura e referência. E também, a organização por __Mapa Mental (Mind Map)__ trará de forma progressiva a consolidação dos conceitos, práticas e experiências de DevOps. Na parte inicial de cada cenário, terá um __Mapa Mental (Mind Map)__ derivado deste abaixo.
 
@@ -41,3 +41,4 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 * [Learning Become a Devops Engineer](https://www.linkedin.com/learning/paths/become-a-devops-engineer)
 * [Flow Diagram of Tools used in Devops](https://medium.com/devops-process-and-tools/flow-diagram-of-tools-used-in-devops-b8d9f944ef21)
 * [DevOps Stack Tools](https://www.agilestacks.com/products/devops-stack)
+* [DevOps Tutorial for Beginners - Learn DevOps in 7 Hours](https://www.youtube.com/watch?v=hQcFE0RD0cQ)
