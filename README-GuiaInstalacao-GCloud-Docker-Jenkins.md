@@ -55,6 +55,7 @@ $ git clone https://github.com/GoogleCloudPlatform/jenkins-docker.git
 * Passo 7: Inicie o Docker com imagem do Jenkins 2.176 
 
 ```gcloud-shell
+cd jenkins-docker
 docker run \
   --name some-jenkins \
   -p 8080:8080 \
