@@ -17,7 +17,7 @@ O objetivo deste guia de configuração é **Instalar** e executar uma imagem **
 
 ```cloudshell
 gcloud compute firewall-rules create allow-http \
-  --target-tags http-servers \
+  --target-tags http-server \
   --allow tcp:80
 
 gcloud beta compute instances create-with-container nginx-vm \
