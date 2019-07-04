@@ -22,7 +22,7 @@ gcloud compute firewall-rules create allow-http \
 
 gcloud beta compute instances create-with-container nginx-vm \
   --tags http-servers \
-  --container-image nginx:alpine
+  --container-image nginx:alpine \
   --zone us-east1-c
 ```
 
