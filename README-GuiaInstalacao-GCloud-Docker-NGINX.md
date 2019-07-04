@@ -8,7 +8,7 @@ O objetivo deste guia de configuração é **Instalar** e executar uma imagem **
 
 ### 2. Premissas
 
-* [Google Cloud Plataform - GCloud][https://cloud.google.com/]
+* [Google Cloud Plataform - GCloud](https://cloud.google.com/)
 
 
 ### 3. Passo-a-passo
