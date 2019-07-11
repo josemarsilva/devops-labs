@@ -47,6 +47,7 @@ A aplicação [`Hello.java`](https://github.com/josemarsilva/eval-jenkins/blob/m
 
 * [Jenkins instalado](https://github.com/josemarsilva/eval-jenkins)
   * [Jenkins instalado Windows](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-InstallJenkins.md)
+  * [Jenkins instalado GCloud em Docker](https://github.com/josemarsilva/googlecloudplatform#gcloud-engine---jenkins-using-docker)
 * [Novo Job tipo FreeStyle Execute Shell Compila e Executa um programa Java com codigo fonte baixado do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobFreestyleExecShellGitJavacJavaRun.md)
 * Jenkins Master ou Slave configurado em máquina com Sistema Operacional Windows
 

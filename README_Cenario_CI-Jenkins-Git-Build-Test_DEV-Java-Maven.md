@@ -48,6 +48,7 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 ### 2.2. Pré requisitos
 
 * [Jenkins instalado](https://github.com/josemarsilva/eval-jenkins)
+* [Jenkins instalado GCloud em Docker](https://github.com/josemarsilva/googlecloudplatform#gcloud-engine---jenkins-using-docker)
 * [Instalação do Plugin Maven Integration](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-MavenJenkins.md)
 
 

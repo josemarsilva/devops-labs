@@ -16,6 +16,9 @@ A estratégia deste projeto é __agrupar os cenários em tópicos__ por critéri
 Os cenários serão organizados em tópicos comuns, com objetivo de dar uniformidade a leitura e referência. E também, a organização por __Mapa Mental (Mind Map)__ trará de forma progressiva a consolidação dos conceitos, práticas e experiências de DevOps. Na parte inicial de cada cenário, terá um __Mapa Mental (Mind Map)__ derivado deste abaixo.
 
 ![MindMap DevOps](doc/MindMap%20DevOps.png)
+[`Expandir Mapa Mental`](doc/MindMap%20DevOps%20-%20all%20expanded.png)
+
+
 
 Embora esta documentação agrupe tópicos comuns, vale lembrar que as melhores experiências e resultados com DevOps se dão com a maturidade crescente de todos os tópicos. Este comentário é para desencorajar a certeza de sucesso na implantação de DevOps de forma sequencial, grupo a grupo, tópico a tópico do __MindMap__ apresentado. Penso que a melhor estratégia é diluir as iniciativas pelos tópicos, em uma abordagem crescente de complexidade, sempre suportada pela __Cultura (Culture)__ e __Ferramenta (Tools)__. Não é um caminho de sucesso garantido, muito pelo contrário, revisões podem e devem acontecer. É comum encontrar situações onde será necessário abandonar um processo já implantado e funcionando em pról outro processo com maior nível de automatização.
 
