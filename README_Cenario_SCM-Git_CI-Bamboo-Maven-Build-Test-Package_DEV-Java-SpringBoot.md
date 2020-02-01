@@ -27,7 +27,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](doc/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 * Diagrama de Contexto da aplicação `java-simplecalc-spring-boot`
 A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
@@ -36,12 +36,12 @@ A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão p
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/DeployDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](doc/DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 
 
 ### c. BPMN
-![BPMN-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/BPMN-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](doc/BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 
 ---

@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta **Jenkins** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java**, em seguida compila o aplicativo gerando um código executável e finalmente aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps CI-Jenkins-Git_DEV-Java.png](doc/MindMap%20DevOps%20CI-Jenkins-Git_DEV-Java.png)
+![MindMap DevOps CI-Jenkins-Git_DEV-Java.png](doc/MindMap%20DevOps%20SCM-Git_CI-Jenkins_DEV-Java.png)
 
 
 ### 1.3. Tópicos abordados
@@ -29,17 +29,17 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/UseCaseDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](doc/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
 
 * Diagrama de Contexto da aplicação `Hello.java`
 
 A aplicação [`Hello.java`](https://github.com/josemarsilva/eval-jenkins/blob/master/src/java/Hello.java) é extremamente simples e imprime na console 10x a frase "Hello World Java".
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/DeployDiagram-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Git_DEV-Java.png](doc/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Git_DEV-Java.png)
 
 ### c. BPMN
-![BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png](doc/BPMN-Cenario_CI-Jenkins-Git_DEV-Java.png)
+![BPMN-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](doc/BPMN-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
 
 
 ---

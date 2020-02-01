@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta **Jenkins** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java**, em seguida o **Jenkins** faz o **Build** com base no **Maven**, executa os testes unitários **Unit Test** já previstas na programação e gera o binário do aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/MindMap%20DevOps%20CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
+![MindMap DevOps SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](doc/MindMap%20DevOps%20SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 ### 1.3. Tópicos abordados
@@ -36,12 +36,12 @@ A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](ht
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/DeployDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](doc/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 
 ### c. BPMN
-![BPMN-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/BPMN-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
+![BPMN-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](doc/BPMN-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 ---
