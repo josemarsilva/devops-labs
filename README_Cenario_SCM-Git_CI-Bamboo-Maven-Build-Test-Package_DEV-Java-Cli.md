@@ -42,7 +42,7 @@ A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão p
 
 
 ### c. BPMN
-![BPMN-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/BPMN-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png](doc/BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png)
 
 
 ---

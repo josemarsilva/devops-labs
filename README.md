@@ -32,13 +32,13 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 
 ### 2.1. Cenários
 
-* [`Cenario_CI-Jenkins_DEV-Java`](README_Cenario_CI-Jenkins_DEV-Java.md): Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, compila e executa
+* [`Cenario_CI-Jenkins_DEV-Java`](README_Cenario_SCM-Git_CI-Jenkins_DEV-Java.md): Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, compila e executa
 
-* [`Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven`](README_Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.md): Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, faz o build do projeto usando o Maven, executa os tests UnitTest e compila e empacota o aplicativo para Deploy
+* [`Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven`](README_Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test-Package_DEV-Java.md): Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, faz o build do projeto usando o Maven, executa os tests UnitTest e compila e empacota o aplicativo para Deploy
 
-* [`Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven`](README_Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.md): Executa um Projeto/Plano (Pipeline) do Bambo que baixa projeto do SCM(Source Code Management) GitHub, executa o CI(Continuous Integration) com build do projeto usando Maven, executa UnitTest(Testes Unitários) com JUnit e empacota o aplicativo para Deploy
+* [`Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven`](README_Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.md): Executa um Projeto/Plano (Pipeline) do Bambo que baixa projeto do SCM(Source Code Management) GitHub, executa o CI(Continuous Integration) com build do projeto usando Maven, executa UnitTest(Testes Unitários) com JUnit e empacota o aplicativo para Deploy
 
-* [`Cenario_SCM-Git_CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven`](README_Cenario_SCM-Git_CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven.md): Executa um Projeto/Plano(s)/Tarefas (Pipeline) do Bambo que baixa projeto do do SCM(Source Code Management)  GitHub, executa o CI(Continuous Integration) com build do projeto usando Maven, executa UnitTest(Testes Unitários) com JUnit e empacota o aplicativo para Deploy
+* [`Cenario_SCM-Git_CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven`](README_Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.md): Executa um Projeto/Plano(s)/Tarefas (Pipeline) do Bambo que baixa projeto do do SCM(Source Code Management)  GitHub, executa o CI(Continuous Integration) com build do projeto usando Maven, executa UnitTest(Testes Unitários) com JUnit e empacota o aplicativo para Deploy
 
 ---
 ## I - Referências
