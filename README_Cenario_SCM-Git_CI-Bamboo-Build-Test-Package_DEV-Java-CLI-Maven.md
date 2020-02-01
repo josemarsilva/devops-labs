@@ -1,4 +1,4 @@
-# README - devops-labs - Cenario_SCM-CI-Bamboo-Git-Build-Test-Package_DEV-Java-CLI-Maven
+# README - devops-labs - Cenario_SCM-Git-CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven
 
 ## 1. Introdução
 
