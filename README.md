@@ -32,11 +32,13 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 
 ### 2.1. Cenários
 
-* [`Cenario_CI-Jenkins_DEV-Java`: Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, compila e executa](README_Cenario_CI-Jenkins_DEV-Java.md)
+* [`Cenario_CI-Jenkins_DEV-Java`](README_Cenario_CI-Jenkins_DEV-Java.md): Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, compila e executa
 
-* [`Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven`: Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, faz o build do projeto usando o Maven, executa os tests UnitTest e compila e empacota o aplicativo para Deploy](README_Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.md)
+* [`Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven`(README_Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.md): Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, faz o build do projeto usando o Maven, executa os tests UnitTest e compila e empacota o aplicativo para Deploy]
 
-* [`Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven`: Executa um Projeto/Plano (Pipeline) do Bambo que baixa projeto do GitHub, faz o build do projeto usando Manven, executa os tests UnitTest e empacota o aplicativo para Deploy](README_Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.md)
+* [`Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven`](README_Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.md): Executa um Projeto/Plano (Pipeline) do Bambo que baixa projeto do GitHub, faz o build do projeto usando Manven, executa os tests UnitTest e empacota o aplicativo para Deploy
+
+* [`README_Cenario_SCM-Git-CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven`](README_Cenario_SCM-Git-CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven.md)
 
 ---
 ## I - Referências
