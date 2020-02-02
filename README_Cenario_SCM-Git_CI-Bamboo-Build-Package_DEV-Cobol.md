@@ -42,7 +42,8 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 ---
 ### 2.2. Pré requisitos
 
-* [Bamboo instalado](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server/doc/README_InstallBambooLicense_StepByStep.md)
+* [Container Docker com Bamboo instalado](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server/#414-docker---bamboo-server)
+* [Ativação da licensa de uso do Bamboo](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server/blob/master/doc/README_InstallBambooLicense_StepByStep.md)
 * [Guia de Instalação Bamboo Server para Windows](README-GuiaInstalacao-Bambo-Windows.md)
 * [Cobol Free for Linux Instalado](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#321-compilador-cobol-free-linux)
 
