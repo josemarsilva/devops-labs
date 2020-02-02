@@ -54,16 +54,19 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 ---
 ### 2.4. Guia de Configuração
 
-O objetivo é você criar um **projeto** (__project__), **plano** (__plan__) e **construção** (__build__) para realizar o download do código do GitHub e fazer o `Build` e o `Package`.
-
-* Passo 1: Efetue o login no Bamboo Server
-
+* __em construção__
 
 ---
 ### 2.5. Guia de Demonstração
 
-* under-construction
-
+* Passo 01: **Identificar requisitos de negócio #01-01-01**: 
+  * a
+  * b
+  * c
+* Passo 02: **Especificar requisitos funcionais #01-01-02**: 
+* Passo 03: **Especificar requisitos não funcionais #01-01-03**:
+* Passo 04: **Especificar casos de testes #01-01-04**: 
+* Passo 05: **Elaborar e Revisar planejamento #01-01-05**:
 
 ---
 ## 3. Conclusão
