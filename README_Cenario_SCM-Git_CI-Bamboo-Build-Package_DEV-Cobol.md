@@ -60,7 +60,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 ### 2.5. Guia de Demonstração
 
 * Passo 01: `BPMN - Identificar requisitos de negócio #01-01-01`: 
-  * O time de analistas de negócio identificou a demanda: __"precisamos dizer Olá mundo aos clientes"__
+  * O time de analistas de negócio identificou a demanda: __precisamos dizer "Olá mundo" aos clientes__
 * Passo 02: `BPMN - Especificar requisitos funcionais #01-01-02`: 
   * O time de analistas de sistemas especificou os requisitos do sistemas que deve ser construído:
     * Construir um programa que ao ser executado informe a mensagem "Olá mundo"
@@ -68,8 +68,8 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
     * O sistema deve ser construído na linguagem de programação **Cobol**
     * O sistema deve ser construído para ser entregue pela esteira DevOps do laboratório
     * A esteira DevOps deve implementar:
-	  * **SCM**: Controle de versões pelo GitHub
-	  * **CI**: Integração contínua entre versão de fontes, compilação, empacotamento, distribuição entre os ambientes
+	  * **SCM**: Controle de versões pelo **GitHub**
+	  * **CI**: Integração **contínua** entre versão de fontes, **compilação**, **empacotamento** e **distribuição** entre os ambientes
 * Passo 04: `BPMN - Especificar casos de testes #01-01-04`: 
   * O time de analistas de testes especificou os Casos de Testes que devem ser construído:
     * Construir o caso de teste unitário: quando o programa for iniciado, verificar se a mensagem "Olá mundo" foi apresentada
