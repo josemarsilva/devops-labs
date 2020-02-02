@@ -1,23 +1,22 @@
-# README - devops-labs - Cenario_SCM-Git-CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven
+# README - devops-labs - Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.md
 
 ## 1. Introdução
 
 ### 1.1. Objetivo
-O objetivo deste cenário é demonstrar a ferramenta **Bamboo** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java** e **Apache-CLI**. Em seguida o **Bamboo** faz o **Build** com base no **Maven**, executa os testes unitários **Unit Test** já previstas na programação e gera o pacote de aplicativo.
+O objetivo deste cenário é demonstrar a ferramenta de **CI**: **Bamboo** integrando com a ferramenta de **SCM**: **Github** para buscar o código fonte de um aplicativo construído em linguagem de programação **Cobol** . Em seguida o **CI** / **Bamboo** faz o **CI** / **Build** com base no **Compilador Cobol Free**, gera o **CI** / **Package** do programa objeto executável e executa um pacote de scripts de testes.
 
 ### 1.2. MindMap
-![MindMap DevOps SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png.png](doc/MindMap%20DevOps%20SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png)
+![MindMap DevOps SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/MindMap%20DevOps%20SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 ### 1.3. Tópicos abordados
 Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas e ferramentas:
+
+* Requirement Management - Requisito de negócio foi identificado e especificado
 * SCM - Source Code GitHub.com
+* Programming Language - Cobol
 * CI - Continuos Integration ( Checkout Source Code, Compile, Build, Package )
-* Bamboo - CI Tools
-* Bamboo Project, Plan e Build executando `git pull`
-* Bamboo Project, Plan e Build executando  fazendo o `Build` da aplicação com o `Maven`
-* Automação do processo de `Build`, `UnitTest` e `Package`
-* Cultura do compromisso de ter o código fonte em um repositório (GitHub)
+* Stack Tools Used: Cobol Free/Linux, GitHub.com, Bamboo
 
 ---
 ## 2. Cenário
@@ -28,16 +27,11 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
-
-* Diagrama de Contexto da aplicação `java-simplecalc-spring-boot`
-A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
-
-![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/doc/UseCaseDiagram-Context.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/DeployDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![DeployDiagram-Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/DeployDiagram-Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 
@@ -50,8 +44,7 @@ A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão p
 
 * [Bamboo instalado](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server/doc/README_InstallBambooLicense_StepByStep.md)
 * [Guia de Instalação Bamboo Server para Windows](README-GuiaInstalacao-Bambo-Windows.md)
-* Maven 3.6.x instaldo
-
+* []()
 
 ---
 ### 2.3. Leitura pré-execução
