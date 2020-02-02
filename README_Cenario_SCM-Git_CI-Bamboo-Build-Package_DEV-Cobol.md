@@ -59,14 +59,23 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 ---
 ### 2.5. Guia de Demonstração
 
-* Passo 01: **Identificar requisitos de negócio #01-01-01**: 
-  * a
-  * b
-  * c
-* Passo 02: **Especificar requisitos funcionais #01-01-02**: 
-* Passo 03: **Especificar requisitos não funcionais #01-01-03**:
-* Passo 04: **Especificar casos de testes #01-01-04**: 
-* Passo 05: **Elaborar e Revisar planejamento #01-01-05**:
+* Passo 01: `BPMN - Identificar requisitos de negócio #01-01-01`: 
+  * O time de analistas de negócio identificou a demanda: __"precisamos dizer Olá mundo aos clientes"__
+* Passo 02: `BPMN - Especificar requisitos funcionais #01-01-02`: 
+  * O time de analistas de sistemas especificou os requisitos do sistemas que deve ser construído:
+    * Construir um programa que ao ser executado informe a mensagem "Olá mundo"
+* Passo 03: `BPMN - Especificar requisitos não funcionais #01-01-03`:
+    * O sistema deve ser construído na linguagem de programação **Cobol**
+    * O sistema deve ser construído para ser entregue pela esteira DevOps do laboratório
+    * A esteira DevOps deve implementar:
+	  * **SCM**: Controle de versões pelo GitHub
+	  * **CI**: Integração contínua entre versão de fontes, compilação, empacotamento, distribuição entre os ambientes
+* Passo 04: `BPMN - Especificar casos de testes #01-01-04`: 
+  * O time de analistas de testes especificou os Casos de Testes que devem ser construído:
+    * Construir o caso de teste unitário: quando o programa for iniciado, verificar se a mensagem "Olá mundo" foi apresentada
+* Passo 05: `BPMN - Elaborar e Revisar planejamento #01-01-05`:
+  * Em conjunto, os times de analistas de negócios, analistas de sistemas e analistas de testes elaboraram e revisaram o planejamento do desenvolvimento do sistema
+    * Cronograma construído: 2h para desenvolvimento
 
 ---
 ## 3. Conclusão
