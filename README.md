@@ -24,10 +24,10 @@ Embora esta documentação agrupe tópicos comuns, vale lembrar que as melhores 
 
 Os cenários poderão conter os seguintes diagramas, mas não limitando a somente estes:
 
-* Diagrama UML de __Use%20Case%20Diagram__ (Caso de Uso)
-* Diagrama UML de __Deploy%20Diagram__ (Implantação)
-* Diagrama , __Activity%20Diagram__ (Atividade)
-* Diagrama __BMPN%20Diagrams__ 
+* Diagrama UML de __Use Case Diagram__ (Caso de Uso)
+* Diagrama UML de __Deploy Diagram__ (Implantação)
+* Diagrama , __Activity Diagram__ (Atividade)
+* Diagrama __BMPN Diagrams__ 
 
 Também podem conter qualquer outro tipo de figuras e vídeos com objetivo de enriquecer a documentação do cenário. As ferramenta(s) utilizada(s) para documentar os diagramas são:
 
@@ -35,7 +35,7 @@ Também podem conter qualquer outro tipo de figuras e vídeos com objetivo de en
 * [Bizagi Modeler](http://www.miluzzi.com.br/site2/bpmn/bpmn_basics.htm)
 * [Free Mind](https://freemind.br.softonic.com/)
 
-A medida que a maturidade das práticas e experiências são ampliadas, faz-se necessário reaproveitar cenários anteriores como __cenários%20base__ a partir do qual a evolução ocorre. Também poderá fazer-se necessário contar uma história (contextualizar) para dar sentido ao cenário.
+A medida que a maturidade das práticas e experiências são ampliadas, faz-se necessário reaproveitar cenários anteriores como __cenários base__ a partir do qual a evolução ocorre. Também poderá fazer-se necessário contar uma história (contextualizar) para dar sentido ao cenário.
 
 
 ---
