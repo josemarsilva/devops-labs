@@ -51,7 +51,7 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 
 * [`Cenario_SCM-Git_CI-Bamboo-Build-Test-Package_DEV-Java-CLI-Maven`](README_Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.md): Executa um Projeto/Plano(s)/Tarefas (Pipeline) do Bambo que baixa projeto do SCM(Source Code Management)  GitHub, executa o CI(Continuous Integration) com build do projeto usando Maven, executa UnitTest(Testes Unitários) com JUnit e empacota o aplicativo para Deploy.
 
-* [`Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol`](README_Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.md): Executa um projeto/plano/tarefas de um Bamboo Pipeline, que baixa o projeto do SCM(Source Code Management)  GitHub, executa o CI(Continuous Integration) com build (compilação) do projeto usando Scripts de DevOps e empacota o aplicativo para Deploy.
+* [`Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol`](README_Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.md): Executa um projeto/plano/tarefas de um Bamboo Pipeline, que baixa o projeto do SCM(Source Code Management)  GitHub, executa o CI(Continuous Integration) com build (compilação) do projeto usando Scripts de DevOps e empacota o aplicativo para Deploy.
 
 ---
 ## I - Referências
