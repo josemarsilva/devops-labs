@@ -13,7 +13,7 @@ O objetivo deste cenário é demonstrar a ferramenta de **CI**: **Bamboo** integ
 Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas e ferramentas:
 
 * Requirement Management - Requisito de negócio foi identificado e especificado
-* SCM - Source Code GitHub.com
+* SCM - Source Code - BitBucket.org
 * Programming Language - Cobol
 * CI - Continuos Integration ( Checkout Source Code, Compile, Build, Package )
 * Stack Tools Used: Cobol Free/Linux, GitHub.com, Bamboo
