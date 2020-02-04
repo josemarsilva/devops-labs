@@ -31,7 +31,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/DeployDiagram-Cenario_SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png)
+![DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 
