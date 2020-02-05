@@ -25,18 +25,28 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 ### a. Use Case Diagram
 
-* Diagrama de Contexto do laboratório
+* Diagrama Caso de Uso - `cobol-hello-world`
 
 ![UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 ### b. Deploy Diagram
+
+* Diagrama de Implantação - `cobol-hello-world`
+
 ![DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 
 ### c. BPMN
-![BPMN-Cenario_DESIGN-PLAN_DEV_SCM_BUILD_PACKAGE_DEPLOY-TEST_DEPLOY-PROD.png](doc/BPMN-Cenario_DESIGN-PLAN_DEV_SCM_BUILD_PACKAGE_DEPLOY-TEST_DEPLOY-PROD.png)
+
+* Diagrama BPMN - Contexto DevOps Labs Pipeline - nivel 01
+
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png)
+
+* Diagrama BPMN - PLAN - Design e Planejamento - nivel 01-01
+
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png)
 
 
 ---
