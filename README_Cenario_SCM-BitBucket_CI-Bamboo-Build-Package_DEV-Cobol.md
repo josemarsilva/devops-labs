@@ -40,11 +40,11 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 ### c. BPMN
 
-* Diagrama BPMN - Contexto DevOps Labs Pipeline - nivel 01
+* Diagrama BPMN - Contexto DevOps Labs Pipeline - `01`
 
 ![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png)
 
-* Diagrama BPMN - PLAN - Design e Planejamento - nivel 01-01
+* Diagrama BPMN - PLAN - Design e Planejamento - `01-01`
 
 ![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png)
 
