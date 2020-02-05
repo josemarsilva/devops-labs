@@ -70,7 +70,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
     * O sistema deve ser construído para ser entregue pela esteira DevOps do laboratório
     * A esteira DevOps deve implementar:
 	  * **SCM**: Controle de versões pelo **GitHub**
-	  * **CI**: Integração **contínua** entre versão de fontes, **compilação**, **empacotamento** e **distribuição** entre os ambientes
+	  * **CI**: Integração **contínua** entre versão de fontes, **compilação** e **empacotamento**
 * Passo 04: `BPMN - Especificar casos de testes #01-01-04`: 
   * O time de analistas de testes especificou os Casos de Testes que devem ser construído:
     * Construir o caso de teste unitário: quando o programa for iniciado, verificar se a mensagem "Olá mundo" foi apresentada
