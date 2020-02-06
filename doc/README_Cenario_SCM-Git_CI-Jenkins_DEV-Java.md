@@ -1,4 +1,4 @@
-# README - devops-labs - Cenario_CI-Jenkins-Git_DEV-Java
+# README - devops-labs - Cenario_SCM-Git_CI-Jenkins_DEV-Java.md
 
 ## 1. Introdução
 
@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta **Jenkins** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java**, em seguida compila o aplicativo gerando um código executável e finalmente aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps CI-Jenkins-Git_DEV-Java.png](mind-maps/MindMap%20DevOps%20SCM-Git_CI-Jenkins_DEV-Java.png)
+![MindMap DevOps SCM-Git_CI-Jenkins_DEV-Java.png](mind-maps/MindMap%20DevOps%20SCM-Git_CI-Jenkins_DEV-Java.png)
 
 
 ### 1.3. Tópicos abordados
