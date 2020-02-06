@@ -48,6 +48,22 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 ![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png)
 
+* Diagrama BPMN - DEV - Desenvolvimento - `01-02`
+
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png)
+
+* Diagrama BPMN - SCM - Desenvolvimento - `01-03`
+
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png)
+
+* Diagrama BPMN - BUILD - Compilação e Construção - `01-04`
+
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png)
+
+* Diagrama BPMN - PACKAGE REPOSITORY - Empacotar o entregável - `01-05`
+
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png)
+
 
 ---
 ### 2.2. Pré requisitos
@@ -71,7 +87,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 ### 2.5. Guia de Demonstração
 
 * Passo 01: `BPMN - Identificar requisitos de negócio #01-01-01`: 
-  * O time de analistas de negócio identificou a demanda: __precisamos dizer "Olá mundo" aos clientes__
+  * O time de analistas de negócio identificou a demanda: __precisamos dizer "Olá" aos clientes__
 * Passo 02: `BPMN - Especificar requisitos funcionais #01-01-02`: 
   * O time de analistas de sistemas especificou os requisitos do sistemas que deve ser construído:
     * Construir um programa que ao ser executado informe a mensagem "Olá mundo"
