@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta **Bamboo** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java** e framework **Spring-Boot**. Em seguida o **Bamboo** faz o **Build** com base no **Maven**, executa os testes unitários **Unit Test** já previstas na programação e gera o pacote de aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](doc/MindMap%20DevOps%20CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![MindMap DevOps CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](mind-maps/MindMap%20DevOps%20CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
 
 
 ### 1.3. Tópicos abordados
@@ -27,21 +27,21 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](doc/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](uml-diagram/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 * Diagrama de Contexto da aplicação `java-simplecalc-spring-boot`
 A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
-![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/doc/UseCaseDiagram-Context.png)
+![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/uml-diagram/UseCaseDiagram-Context.png)
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](doc/DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](uml-diagram/DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 
 
 ### c. BPMN
-![BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](doc/BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
+![BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](bpmn-diagrams/BPMN-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 
 ---

@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta de **CI**: **Bamboo** integrando com a ferramenta de **SCM**: **Github** para buscar o código fonte de um aplicativo construído em linguagem de programação **Cobol** . Em seguida o **CI** / **Bamboo** faz o **CI** / **Build** com base no **Compilador Cobol Free**, gera o **CI** / **Package** do programa objeto executável e executa um pacote de scripts de testes.
 
 ### 1.2. MindMap
-![MindMap DevOps SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/MindMap%20DevOps%20SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
+![MindMap DevOps SCM-Git_CI-Bamboo-Build-Package_DEV-Cobol.png](mind-maps/MindMap%20DevOps%20SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 ### 1.3. Tópicos abordados
@@ -27,14 +27,14 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama Caso de Uso - `cobol-hello-world`
 
-![UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
+![UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](uml-diagram/UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 ### b. Deploy Diagram
 
 * Diagrama de Implantação - `cobol-hello-world`
 
-![DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](doc/DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
+![DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](uml-diagram/DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 
@@ -42,27 +42,27 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama BPMN - Contexto DevOps Labs Pipeline - `01`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01.png)
 
 * Diagrama BPMN - PLAN - Design e Planejamento - `01-01`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png)
 
 * Diagrama BPMN - DEV - Desenvolvimento - `01-02`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png)
 
 * Diagrama BPMN - SCM - Desenvolvimento - `01-03`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png)
 
 * Diagrama BPMN - BUILD - Compilação e Construção - `01-04`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png)
 
 * Diagrama BPMN - PACKAGE REPOSITORY - Empacotar o entregável - `01-05`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png](doc/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png)
 
 
 ---

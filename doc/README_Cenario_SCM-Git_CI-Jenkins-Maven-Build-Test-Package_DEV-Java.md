@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta **Jenkins** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java**, em seguida o **Jenkins** faz o **Build** com base no **Maven**, executa os testes unitários **Unit Test** já previstas na programação e gera o binário do aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](doc/MindMap%20DevOps%20SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
+![MindMap DevOps SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](mind-maps/MindMap%20DevOps%20SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 ### 1.3. Tópicos abordados
@@ -27,21 +27,21 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](doc/UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
+![UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](uml-diagram/UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
 
 * Diagrama de Contexto da aplicação `java-simplecalc-cli`
 A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
-![java-simplecalc-cli-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-cli/blob/master/doc/UseCaseDiagram-Context.png)
+![java-simplecalc-cli-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-cli/blob/master/uml-diagram/UseCaseDiagram-Context.png)
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](doc/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](uml-diagram/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 
 ### c. BPMN
-![BPMN-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](doc/BPMN-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
+![BPMN-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](bpmn-diagrams/BPMN-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 ---
