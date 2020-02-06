@@ -31,26 +31,6 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1560512150274" FOLDED="true" ID="ID_508662412" MODIFIED="1561308775800" TEXT="Plan">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="closed"/>
-<node CREATED="1561258133619" ID="ID_437460015" MODIFIED="1561258187573">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Requirement
-    </p>
-    <p>
-      Management
-    </p>
-  </body>
-</html></richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
 <node CREATED="1560512156115" ID="ID_718213434" MODIFIED="1561327780318" TEXT="Code">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1561256637139" ID="ID_1263394487" MODIFIED="1561309719818">
@@ -73,10 +53,6 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
 </node>
-</node>
-<node CREATED="1561256876461" ID="ID_986045375" MODIFIED="1561904269807" TEXT="Code Review">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="closed"/>
 </node>
 <node CREATED="1561305933484" ID="ID_876638900" MODIFIED="1561306098267">
 <richcontent TYPE="NODE"><html>
@@ -147,14 +123,6 @@
 <node CREATED="1561256035460" ID="ID_1328115742" MODIFIED="1561330795181" TEXT="Unit Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1561904483915" TEXT="Integration Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="closed"/>
-</node>
-<node CREATED="1561258283604" ID="ID_1093836150" MODIFIED="1561330104894" TEXT="Stress Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="closed"/>
 </node>
 </node>
 </node>
@@ -279,10 +247,6 @@
   </body>
 </html></richcontent>
 <icon BUILTIN="folder"/>
-<node CREATED="1561156922814" ID="ID_284583337" MODIFIED="1561306886165" TEXT="Education">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="closed"/>
-</node>
 <node CREATED="1561156922814" ID="ID_423511767" MODIFIED="1561306674836" TEXT="Commitment">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
@@ -420,15 +384,6 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-</node>
-<node CREATED="1561306459728" ID="ID_547342853" MODIFIED="1561306894509" TEXT="CT">
-<icon BUILTIN="closed"/>
-</node>
-<node CREATED="1561306471699" ID="ID_976994284" MODIFIED="1561306896220" TEXT="CD">
-<icon BUILTIN="closed"/>
-</node>
-<node CREATED="1561306479969" ID="ID_657077696" MODIFIED="1561306896707" TEXT="CM">
-<icon BUILTIN="closed"/>
 </node>
 <node CREATED="1561305851017" ID="ID_1823599983" MODIFIED="1561306138340" TEXT="CI">
 <icon BUILTIN="button_ok"/>
