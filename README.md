@@ -26,7 +26,7 @@ Os cenários poderão conter os seguintes diagramas, mas não limitando a soment
 
 * Diagrama UML de __Use Case Diagram__ (Caso de Uso)
 * Diagrama UML de __Deploy Diagram__ (Implantação)
-* Diagrama , __Activity Diagram__ (Atividade)
+* Diagrama UML de __Activity Diagram__ (Atividade)
 * Diagrama __BMPN Diagrams__ 
 
 Também podem conter qualquer outro tipo de figuras e vídeos com objetivo de enriquecer a documentação do cenário. As ferramenta(s) utilizada(s) para documentar os diagramas são:
