@@ -29,7 +29,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](./doc/uml-diagram/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](./uml-diagram/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
 
 * Diagrama de Contexto da aplicação `Hello.java`
 
