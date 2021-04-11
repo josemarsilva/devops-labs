@@ -37,7 +37,7 @@ Esta aplicação implementa uma [Calculadora Simples em linha de comando](https:
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](uml-diagram/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](uml-diagrams/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 
 
