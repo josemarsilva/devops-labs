@@ -29,14 +29,14 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](./uml-diagram/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](./uml-diagrams/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
 
 * Diagrama de Contexto da aplicação `Hello.java`
 
 A aplicação [`Hello.java`](https://github.com/josemarsilva/eval-jenkins/blob/master/src/java/Hello.java) é extremamente simples e imprime na console 10x a frase "Hello World Java".
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Git_DEV-Java.png](uml-diagram/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Git_DEV-Java.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Git_DEV-Java.png](uml-diagrams/DeployDiagram-Cenario_SCM_Git_CI-Jenkins-Git_DEV-Java.png)
 
 ### c. BPMN
 ![BPMN-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](bpmn-diagrams/BPMN-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
