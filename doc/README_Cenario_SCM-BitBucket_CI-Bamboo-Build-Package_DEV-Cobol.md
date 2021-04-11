@@ -58,11 +58,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama BPMN - BUILD - Compilação e Construção - `01-04`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-04.png)
-
 * Diagrama BPMN - PACKAGE REPOSITORY - Empacotar o entregável - `01-05`
-
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-05.png)
 
 
 ---
