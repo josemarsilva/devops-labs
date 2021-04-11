@@ -29,7 +29,7 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](./uml-diagrams/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png](uml-diagrams/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins_DEV-Java.png)
 
 * Diagrama de Contexto da aplicação `Hello.java`
 
@@ -94,16 +94,16 @@ java -cp . Hello
 * Objetivo: Executar o Job `CI_Jenkins_Dev_Java` configurado na etapa anterior, observar e analisar os resultados
 
 * Passo 1: Na página principal do Jenkins, na lista de jobs cadastrados, localize e clique sobre o link do job `CI_Jenkins_Dev_Java` configurado na etapa anterior
-* Passo 2: No formulário de detalhamento do job `/job/[jobname]`, clique no item do menu lateral esquerdo ![jenkins-icon-buildnow.png](doc/jenkins-icon-buildnow.png) `Construir agora`
+* Passo 2: No formulário de detalhamento do job `/job/[jobname]`, clique no item do menu lateral esquerdo ![jenkins-icon-buildnow.png](images/jenkins-icon-buildnow.png) `Construir agora`
 * Passo 3: Observe que na lateral esquerda, abaixo do menu, o Jenkins apresenta o `Histórico de builds`, isto é o histórico da construção dos builds. O primeiro de cima para baixo e maior número sequencial, deve ser a execução do seu job. Clique no link da construção do seu `build`
 * Passo 4: Observe que o formulário de detalhamento do build de um job `/job/[nome-do-job/[numero-da-build]/` apresentará detalhes da execução. Você tem acesso a detalhes como: status de execução, data e hora completa da execução, tempo de execução, etc
 
-![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_build.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_build.png)
+![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_build.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_build.png)
 
-* Passo 5: Clique no link ![jenkins-icon-console.png](doc/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
+* Passo 5: Clique no link ![jenkins-icon-console.png](images/jenkins-icon-console.png) `Saída do console` para observar os detalhes da execução do job
 
-![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png)
-![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png](doc/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png)
+![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console1.png)
+![jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git_DEV-Java_console2.png)
 
 ---
 ## 3. Conclusão
