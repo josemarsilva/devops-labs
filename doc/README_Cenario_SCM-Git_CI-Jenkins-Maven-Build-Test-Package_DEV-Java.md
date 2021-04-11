@@ -88,7 +88,6 @@ Esta aplicação implementa uma [Calculadora Simples em linha de comando](https:
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-05.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-05.png)
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-06.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-06.png)
 ![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-07.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-07.png)
-![jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-08.png](images/jenkins-printscreen-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven_Job-08.png)
 
 
 
