@@ -27,16 +27,16 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](uml-diagram/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](uml-diagrams/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 * Diagrama de Contexto da aplicação `java-simplecalc-spring-boot`
 A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
-![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/uml-diagram/UseCaseDiagram-Context.png)
+![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/doc/UseCaseDiagram-Context.png)
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](uml-diagram/DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](uml-diagrams/DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 
 
