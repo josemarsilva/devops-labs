@@ -27,12 +27,13 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png](uml-diagram/UseCaseDiagram-Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.png)
+
+![UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png](uml-diagram/UseCaseDiagram-Cenario_SCM-Git_CI-Jenkins-Maven-Build-Test_DEV-Java.png)
 
 * Diagrama de Contexto da aplicação `java-simplecalc-cli`
-A aplicação [`java-simplecalc-cli` Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
+Esta aplicação implementa uma [Calculadora Simples em linha de comando](https://github.com/josemarsilva/java-simplecalc-cli) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
-![java-simplecalc-cli-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-cli/blob/master/uml-diagram/UseCaseDiagram-Context.png)
+![java-simplecalc-cli-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-cli/blob/master/doc/UseCaseDiagram-Context.png)
 
 
 ### b. Deploy Diagram
