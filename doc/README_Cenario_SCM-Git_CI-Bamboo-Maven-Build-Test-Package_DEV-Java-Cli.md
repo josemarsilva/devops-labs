@@ -28,16 +28,16 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama de Contexto do laboratório
 
-![UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](uml-diagram/UseCaseDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png](uml-diagrams/UseCaseDiagram-Cenario_SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png)
 
 * Diagrama de Contexto da aplicação `java-simplecalc-spring-boot`
-A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
+A aplicação [`java-simplecalc-spring-boot` Calculadora Simples de linha de comando](https://github.com/josemarsilva/java-simplecalc-cli) recebe como parâmetro uma expressão, avalia e apresenta o seu resultado.
 
-![java-simplecalc-spring-boot-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-spring-boot/blob/master/uml-diagram/UseCaseDiagram-Context.png)
+![java-simplecalc-cli-UseCaseDiagram-Context.png](https://github.com/josemarsilva/java-simplecalc-cli/blob/master/doc/UseCaseDiagram-Context.png)
 
 
 ### b. Deploy Diagram
-![DeployDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](uml-diagram/DeployDiagram-Cenario_CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png](uml-diagrams/DeployDiagram-Cenario_SCM_Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-Cli.png)
 
 
 
@@ -64,7 +64,7 @@ O objetivo é você criar um **projeto** (__project__), **plano** (__plan__) e *
 
 * Passo 1: Efetue o login no Bamboo Server
 
-![bamboo-printscreen-javasimplecalccli-01-login.png](doc/bamboo-printscreen-javasimplecalccli-01-login.png)
+![bamboo-printscreen-javasimplecalccli-01-login.png](images/bamboo-printscreen-javasimplecalccli-01-login.png)
 
 
 
@@ -82,7 +82,7 @@ O objetivo é você criar um **projeto** (__project__), **plano** (__plan__) e *
 ---
 ## I - Referências
 
-* [`java-simplecalc-spring-boot` Calculadora Simples de expressão pela web](https://github.com/josemarsilva/java-simplecalc-spring-boot)
+* [`java-simplecalc-spring-boot` Calculadora Simples linha de comando](https://github.com/josemarsilva/java-simplecalc-cli)
 * [Site Atlassian sobre Bamboo](https://br.atlassian.com/software/bamboo)
 * [Bitbucket Pipeline Build and Deploy](https://bitbucket.org/product/features/pipelines)
 * [Vídeo Youtub - Getting Started with Atlassian Bamboo - Continuous Delivery in Action](https://www.youtube.com/watch?v=rG-XxVYNS4c)
