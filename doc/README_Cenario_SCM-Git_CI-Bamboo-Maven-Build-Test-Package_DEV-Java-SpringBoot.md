@@ -6,7 +6,7 @@
 O objetivo deste cenário é demonstrar a ferramenta **Bamboo** integrando com o **Github** para buscar o código fonte de um aplicativo construído em linguagem **Java** e framework **Spring-Boot**. Em seguida o **Bamboo** faz o **Build** com base no **Maven**, executa os testes unitários **Unit Test** já previstas na programação e gera o pacote de aplicativo.
 
 ### 1.2. MindMap
-![MindMap DevOps CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png](mind-maps/MindMap%20DevOps%20CI-Bamboo-Git-Build-Test-Package_DEV-Java-SpringBoot-Maven.png)
+![MindMap DevOps SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png](mind-maps/MindMap%20DevOps%20SCM-Git_CI-Bamboo-Maven-Build-Test-Package_DEV-Java-SpringBoot.png)
 
 
 ### 1.3. Tópicos abordados
