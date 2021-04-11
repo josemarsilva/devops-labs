@@ -63,51 +63,51 @@ O objetivo é você criar um **projeto** (__project__), **plano** (__plan__) e *
 
 * Passo 1: Efetue o login no Bamboo Server
 
-![bamboo-printscreen-build-github-config-prj-plan-build-01.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-01.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-01.png](images/bamboo-printscreen-build-github-config-prj-plan-build-01.png)
 
 * Passo 2: Clique no botão de criar **projeto/plano** `create project`
 
-![bamboo-printscreen-build-github-config-prj-plan-build-02.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-02.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-02.png](images/bamboo-printscreen-build-github-config-prj-plan-build-02.png)
 
 * Passo 3: Informe os campos do novo **projeto** a ser criado: `Project Name`, `Project Key`, `Project Description`, `Project Access` e em seguida clique no botão `Save`
 
-![bamboo-printscreen-build-github-config-prj-plan-build-03.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-03.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-03.png](images/bamboo-printscreen-build-github-config-prj-plan-build-03.png)
 
 * Passo 4: Informe os campos do novo **plano** a ser criado: `Plan Name`, `Plan Key`, `Plan Description`, `Plan Access` e em seguida clique no botão `Save`
 
-![bamboo-printscreen-build-github-config-prj-plan-build-04.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-04.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-04.png](images/bamboo-printscreen-build-github-config-prj-plan-build-04.png)
 
 * Passo 5: Informe os campos de configuração do GitHub repository na sessão `Build repository to new build plan`
 
-![bamboo-printscreen-build-github-config-prj-plan-build-05.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-05.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-05.png](images/bamboo-printscreen-build-github-config-prj-plan-build-05.png)
 
 * Passo 6: Clique no botão `add task` para adicionar uma nova tarefa ao seu plano que fará o `Maven Build` do projeto/plano
 
-![bamboo-printscreen-build-github-config-prj-plan-build-06.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-06.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-06.png](images/bamboo-printscreen-build-github-config-prj-plan-build-06.png)
 
 * Passo 7: Escolha o ícone do `Maven 3.x`
 
-![bamboo-printscreen-build-github-config-prj-plan-build-07.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-07.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-07.png](images/bamboo-printscreen-build-github-config-prj-plan-build-07.png)
 
 * Passo 8: Configure os parâmetros de execução do `Maven`
 
-![bamboo-printscreen-build-github-config-prj-plan-build-08.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-08.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-08.png](images/bamboo-printscreen-build-github-config-prj-plan-build-08.png)
 
 * Passo 9: Configure o local de execução do programa `Maven` em sua máquina
 
-![bamboo-printscreen-build-github-config-prj-plan-build-09.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-09.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-09.png](images/bamboo-printscreen-build-github-config-prj-plan-build-09.png)
 
 * Passo 10: Configure os parâmetros de onde ficarão os arquivos no workspace
 
-![bamboo-printscreen-build-github-config-prj-plan-build-10.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-10.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-10.png](images/bamboo-printscreen-build-github-config-prj-plan-build-10.png)
 
 * Passo 11: Clique no botao `Save` para salvar a configuração do plano e continuar
 
-![bamboo-printscreen-build-github-config-prj-plan-build-11.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-11.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-11.png](images/bamboo-printscreen-build-github-config-prj-plan-build-11.png)
 
 * Passo 12: Observe que o Plano foi criado com o status de desabilitado
 
-![bamboo-printscreen-build-github-config-prj-plan-build-12.png](doc/bamboo-printscreen-build-github-config-prj-plan-build-12.png)
+![bamboo-printscreen-build-github-config-prj-plan-build-12.png](images/bamboo-printscreen-build-github-config-prj-plan-build-12.png)
 
 
 ---
