@@ -33,14 +33,14 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama Caso de Uso - `cobol-hello-world`
 
-![UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol.png](uml-diagrams/UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol.png)
+![UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](uml-diagrams/UseCaseDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 ### b. Deploy Diagram
 
 * Diagrama de Implantação - `cobol-hello-world`
 
-![DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol.png](uml-diagrams/DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol.png)
+![DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png](uml-diagrams/DeployDiagram-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol.png)
 
 
 
@@ -52,24 +52,25 @@ Este cenário de laboratório aborda os seguintes tópicos, conceitos, práticas
 
 * Diagrama BPMN - PLAN - Design e Planejamento - `01-01`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-01.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-01.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-01.png)
 
 * Diagrama BPMN - DEV - Desenvolvimento - `01-02`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-02.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-02.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-02.png)
 
 * Diagrama BPMN - SCM - Desenvolvimento - `01-03`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-03.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-03.png)
+![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package_DEV-Cobol_01-03.png)
 
 * Diagrama BPMN - BUILD - Compilação e Construção - `01-04`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-04.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-04.png)
-
 * Diagrama BPMN - PACKAGE REPOSITORY - Empacotar o entregável - `01-05`
 
-![BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-05.png](bpmn-diagrams/BPMN-Cenario_SCM-BitBucket_CI-Bamboo-Build-Package-UnitTest-IntegrationTest-QualityGate_DEPLOY-SharedFileServer_DEV-Cobol_01-05.png)
+* Diagrama BPMN - DEPLOY - Distribuir ambiente(s) de Teste Unitário - `01-06`
 
+* Diagrama BPMN - DEPLOY - Distribuir ambiente(s) de Teste Integrado - `01-07`
+
+* Diagrama BPMN - DEPLOY - Distribuir ambiente(s) de Teste Produção - `01-08`
 
 ---
 ### 2.2. Pré requisitos

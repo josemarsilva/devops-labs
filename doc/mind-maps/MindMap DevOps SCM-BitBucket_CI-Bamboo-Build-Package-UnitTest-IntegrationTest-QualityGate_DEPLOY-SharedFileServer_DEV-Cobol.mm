@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1560511944302" ID="ID_14535916" MODIFIED="1618880881110">
+<node CREATED="1560511944302" ID="ID_14535916" MODIFIED="1618409067938">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -16,7 +16,7 @@
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="gohome"/>
-<node CREATED="1560511984776" ID="ID_1173631083" MODIFIED="1618880884760" POSITION="left">
+<node CREATED="1560511984776" ID="ID_1173631083" MODIFIED="1618409069813" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -32,9 +32,10 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1560512150274" FOLDED="true" ID="ID_508662412" MODIFIED="1618880880709" TEXT="Plan">
+<node CREATED="1560512150274" ID="ID_508662412" MODIFIED="1618880040149" TEXT="Plan">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561258133619" ID="ID_437460015" MODIFIED="1561755103323">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561258133619" ID="ID_437460015" MODIFIED="1618879574119">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -49,31 +50,13 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1580562665107" FOLDED="true" ID="ID_1334502738" MODIFIED="1618880880709">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Application Life Cycle
-    </p>
-  </body>
-</html></richcontent>
+</node>
+<node CREATED="1560512156115" ID="ID_718213434" MODIFIED="1618880041778" TEXT="Code">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1580563463036" ID="ID_34175402" MODIFIED="1580563474787" TEXT="Jira">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580563476082" ID="ID_556173909" MODIFIED="1580563479246" TEXT="HP ALM">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1602895522813" ID="ID_898859875" MODIFIED="1602895528495" TEXT="ALM Octane Life Cycle"/>
-</node>
-</node>
-<node CREATED="1560512156115" FOLDED="true" ID="ID_718213434" MODIFIED="1618880880709" TEXT="Code">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561256637139" FOLDED="true" ID="ID_1263394487" MODIFIED="1618880880709">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561256637139" ID="ID_1263394487" MODIFIED="1618879621742">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -88,55 +71,21 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754399949" FOLDED="true" ID="ID_113286676" MODIFIED="1618880880709" TEXT="Git">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561754399949" ID="ID_113286676" MODIFIED="1618879621742" TEXT="Git">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754404189" ID="ID_398705085" MODIFIED="1561755103323" TEXT="GitHub">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561755068240" ID="ID_1408033831" MODIFIED="1618879574119" TEXT="BitBucket">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561755065648" ID="ID_918512878" MODIFIED="1561755103323" TEXT="GitLab">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561755068240" ID="ID_1408033831" MODIFIED="1561755103323" TEXT="BitBucket">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1561755369994" FOLDED="true" ID="ID_481670892" MODIFIED="1618880880709">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Branch
-    </p>
-    <p>
-      Workflow
-    </p>
-  </body>
-</html></richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1580562703038" ID="ID_1663897024" MODIFIED="1580562740598" TEXT="master">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1580562708574" ID="ID_670448853" MODIFIED="1580562740602" TEXT="develop">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580562717149" ID="ID_371080652" MODIFIED="1580562740602" TEXT="feature">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580562723641" ID="ID_1355976172" MODIFIED="1580562740602" TEXT="release">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580562731241" ID="ID_1790929578" MODIFIED="1580562740602" TEXT="hotfix">
+<node CREATED="1561256876461" ID="ID_986045375" LINK="#ID_1958808507" MODIFIED="1618880137267" TEXT="CT - Code Quality">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-</node>
-<node CREATED="1561256876461" ID="ID_986045375" LINK="#ID_1958808507" MODIFIED="1618332930994" TEXT="CT - Code Quality">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1561305933484" FOLDED="true" ID="ID_876638900" MODIFIED="1618880880709">
+<node CREATED="1561305933484" ID="ID_876638900" MODIFIED="1618880044049">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -151,77 +100,14 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561306068484" FOLDED="true" ID="ID_336553295" MODIFIED="1618880880709" TEXT="Java">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1580562779038" ID="ID_446964112" MODIFIED="1618879631043" TEXT="Cobol">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754703015" ID="ID_230933305" MODIFIED="1561755525629">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Apache
-    </p>
-    <p>
-      commons-cli
-    </p>
-  </body>
-</html></richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561330241668" ID="ID_829075253" MODIFIED="1561755103323">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Spring-Boot
-    </p>
-  </body>
-</html></richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561329955249" ID="ID_79307702" MODIFIED="1561755103323" TEXT="Maven">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561330196596" ID="ID_319336879" MODIFIED="1561755103323" TEXT="JUnit">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1580562759819" FOLDED="true" ID="ID_174021185" MODIFIED="1618880880709" TEXT="SQL">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1618880736670" ID="ID_1961920116" MODIFIED="1618880740072" TEXT="PL/SQL"/>
-<node CREATED="1618880740681" ID="ID_1187135257" MODIFIED="1618880743918" TEXT="T-SQL"/>
-<node CREATED="1618880764131" ID="ID_1294631240" MODIFIED="1618880774416" TEXT="PL/PgSQL"/>
-</node>
-<node CREATED="1580562769332" ID="ID_1614245704" MODIFIED="1580562784806" TEXT="Python">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580562776041" ID="ID_36753568" MODIFIED="1580562784806" TEXT="NodeJS">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580562779038" ID="ID_446964112" MODIFIED="1580562784806" TEXT="Cobol">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618880544859" ID="ID_1889519508" MODIFIED="1618880600546" TEXT="bash &amp; shell script">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618880516324" ID="ID_1700160618" MODIFIED="1618880519846" TEXT="PHP">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618880576420" ID="ID_835051745" MODIFIED="1618880600546" TEXT="Power Shell">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618880624507" ID="ID_736921136" MODIFIED="1618880627012" TEXT="Groovy">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618880628280" ID="ID_703803411" MODIFIED="1618880634470" TEXT="Ruby &amp; Rails">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
-<node CREATED="1560512013898" ID="ID_1498968330" MODIFIED="1618880884775" POSITION="left">
+<node CREATED="1560512013898" ID="ID_1498968330" MODIFIED="1618409069829" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -237,17 +123,17 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1560512179567" FOLDED="true" ID="ID_982319677" MODIFIED="1618880880709" TEXT="Test">
+<node CREATED="1560512179567" ID="ID_982319677" MODIFIED="1618879767903" TEXT="Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561256035460" ID="ID_1328115742" MODIFIED="1561755103323" TEXT="Unit Test">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561256035460" ID="ID_1328115742" MODIFIED="1618879667760" TEXT="Unit Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1561756305611" FOLDED="true" ID="ID_1958808507" MODIFIED="1618880880709" TEXT="Code Quality">
+<node CREATED="1561756305611" ID="ID_1958808507" MODIFIED="1618879667760" TEXT="Code Quality">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561756651294" ID="ID_879888725" MODIFIED="1561756656208" TEXT="SonarQube">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1581022859434" ID="ID_518977062" MODIFIED="1618333033628">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1581022859434" ID="ID_518977062" MODIFIED="1618879667760">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -259,78 +145,22 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1561754752432" FOLDED="true" ID="ID_10616941" MODIFIED="1618880880709" TEXT="Component Test">
+<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1618879667760" TEXT="Integration Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754803770" ID="ID_937249534" MODIFIED="1561755103323" TEXT="UI Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1561754818356" ID="ID_1541788058" MODIFIED="1561755103323" TEXT="Services Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1561256589600" ID="ID_1850640344" MODIFIED="1561904436156" TEXT="Integration Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561258283604" ID="ID_1093836150" MODIFIED="1561755103323" TEXT="Stress Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580563017539" ID="ID_642069048" MODIFIED="1580563021921" TEXT="Security Test">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561754879897" FOLDED="true" ID="ID_1210781947" MODIFIED="1618880880709">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Test Data
-    </p>
-    <p>
-      Management
-    </p>
-  </body>
-</html></richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1602895551316" ID="ID_1069827661" MODIFIED="1602895558659" TEXT="Test Data Production">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1602895590151" ID="ID_1415842236" MODIFIED="1602895593213" TEXT="Test Data Provisioning">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580563054120" ID="ID_855842324" MODIFIED="1580563074846" TEXT="Synthetic Test Data">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580563083813" FOLDED="true" ID="ID_1522874440" MODIFIED="1618880880709">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      GDPR - General Data
-    </p>
-    <p>
-      Protection Regulation
-    </p>
-  </body>
-</html></richcontent>
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1602895431023" ID="ID_1862728937" MODIFIED="1602895434400" TEXT="LGPD"/>
+<node CREATED="1618333375029" ID="ID_1213474029" MODIFIED="1618879691660" TEXT="Automated Test">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1618333375029" ID="ID_1213474029" MODIFIED="1618333380370" TEXT="Automated Test"/>
-</node>
-<node CREATED="1580564048628" ID="ID_1064495453" LINK="#ID_1334502738" MODIFIED="1618332996189" TEXT="DEV - Application Life Cycle">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561904762492" ID="ID_1641536741" LINK="#ID_1328654848" MODIFIED="1618345133906" TEXT="CI - Quality Gates">
+<node CREATED="1561904762492" ID="ID_1641536741" LINK="#ID_1328654848" MODIFIED="1618880137267" TEXT="CI - Quality Gates">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1560512039698" ID="ID_1105506534" MODIFIED="1618880884775" POSITION="left">
+<node CREATED="1560512039698" FOLDED="true" ID="ID_1105506534" MODIFIED="1618879727584" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -346,10 +176,11 @@
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
+<icon BUILTIN="closed"/>
 <node CREATED="1560512194023" ID="ID_1743855136" MODIFIED="1561754323744" TEXT="Operate">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1560512197120" FOLDED="true" ID="ID_1998879544" MODIFIED="1618880880709" TEXT="Monitoring">
+<node CREATED="1560512197120" FOLDED="true" ID="ID_1998879544" MODIFIED="1618354307787" TEXT="Monitoring">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1580563670439" ID="ID_615061923" MODIFIED="1580563686687">
 <richcontent TYPE="NODE"><html>
@@ -368,7 +199,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1561156710848" ID="ID_1071559844" MODIFIED="1618880884775" POSITION="right">
+<node CREATED="1561156710848" ID="ID_1071559844" MODIFIED="1618409069844" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -384,7 +215,7 @@
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1561258037747" FOLDED="true" ID="ID_1932818956" MODIFIED="1618880880709">
+<node CREATED="1561258037747" ID="ID_1932818956" MODIFIED="1618879794672">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -396,34 +227,27 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754122140" ID="ID_837248221" MODIFIED="1561755103323" TEXT="Jenkins">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561754969423" ID="ID_1124585101" MODIFIED="1618879816015" TEXT="Bamboo">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1560512177181" ID="ID_931000248" MODIFIED="1618880036057" TEXT="Build">
+<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+<node CREATED="1580946804220" ID="ID_428300047" LINK="#ID_876638900" MODIFIED="1618880137267" TEXT="DEV  - Compilers Programming language">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1561754969423" ID="ID_1124585101" MODIFIED="1561755103323" TEXT="Bamboo">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580564533880" ID="ID_292923408" MODIFIED="1580564544914" TEXT="GitLab CI/CD">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618345157236" ID="ID_1217680835" MODIFIED="1618345161447" TEXT="AWS Pipeline"/>
-<node CREATED="1618345168328" ID="ID_299662892" MODIFIED="1618345229260" TEXT="GCloud Pipeline"/>
-</node>
-<node CREATED="1560512177181" FOLDED="true" ID="ID_931000248" MODIFIED="1618880880709" TEXT="Build">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754974588" ID="ID_111914914" MODIFIED="1561755103323" TEXT="Maven">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580946804220" ID="ID_428300047" LINK="#ID_876638900" MODIFIED="1618345880157" TEXT="DEV  - Compilers Programming language">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1561256876461" ID="ID_695576440" LINK="#ID_1958808507" MODIFIED="1618333306516" TEXT="CT - Code Quality">
+<node CREATED="1561256876461" ID="ID_695576440" LINK="#ID_1958808507" MODIFIED="1618880137267" TEXT="CT - Code Quality">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1561904762492" ID="ID_1328654848" MODIFIED="1580563145735" TEXT="Quality Gates">
+<node CREATED="1561904762492" ID="ID_1328654848" MODIFIED="1618879874402" TEXT="Quality Gates">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1561256637139" ID="ID_1243236324" LINK="#ID_1263394487" MODIFIED="1618333273613">
+<node CREATED="1561256637139" ID="ID_1243236324" LINK="#ID_1263394487" MODIFIED="1618880137267">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -439,7 +263,7 @@
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1561754937060" ID="ID_1547897698" LINK="#ID_1213474029" MODIFIED="1618333437146">
+<node CREATED="1561754937060" ID="ID_1547897698" LINK="#ID_1213474029" MODIFIED="1618880137267">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -452,13 +276,10 @@
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1580564048628" ID="ID_494154204" LINK="#ID_1334502738" MODIFIED="1618345270008" TEXT="DEV - Application Life Cycle">
+<node CREATED="1580946820864" ID="ID_1646627788" LINK="#ID_579638188" MODIFIED="1618880137267" TEXT="CD - Package Release">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1580946820864" ID="ID_1646627788" LINK="#ID_579638188" MODIFIED="1618345289282" TEXT="CD - Package Release">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580565428467" ID="ID_583345619" LINK="#ID_672184253" MODIFIED="1618345435539">
+<node CREATED="1580565428467" ID="ID_583345619" LINK="#ID_672184253" MODIFIED="1618880137267">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -472,7 +293,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1560512025839" ID="ID_672184253" MODIFIED="1618880884791" POSITION="right">
+<node CREATED="1560512025839" ID="ID_672184253" MODIFIED="1618409069844" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -488,24 +309,17 @@
 </html></richcontent>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1560512185562" FOLDED="true" ID="ID_579638188" MODIFIED="1618880880709" TEXT="Package Release">
+<node CREATED="1560512185562" ID="ID_579638188" MODIFIED="1618879913573" TEXT="Package Release">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1580816442000" ID="ID_277895464" MODIFIED="1580816785944" TEXT="Shared File Server">
+<node CREATED="1580816442000" ID="ID_277895464" MODIFIED="1618879916029" TEXT="Shared File Server">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580816448898" ID="ID_556443252" MODIFIED="1580816785944" TEXT="FTP Server">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580816452947" ID="ID_1024160590" MODIFIED="1580816785944" TEXT="HTTP Server">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580563366961" ID="ID_239408375" MODIFIED="1580816785944" TEXT="Nexus">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1560512187847" FOLDED="true" ID="ID_1244701246" MODIFIED="1618880880709" TEXT="Deploy">
+<node CREATED="1560512187847" ID="ID_1244701246" MODIFIED="1618880030768" TEXT="Deploy">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561905635985" ID="ID_1304756611" MODIFIED="1561905649930">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1561905635985" ID="ID_1304756611" MODIFIED="1618880028191">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -519,48 +333,16 @@
     </p>
   </body>
 </html></richcontent>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1561755141295" FOLDED="true" ID="ID_1018176172" MODIFIED="1618880880709">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Q&amp;A
-    </p>
-    <p>
-      Environments
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1561256123376" ID="ID_1850186943" MODIFIED="1618880074217" TEXT="Production">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1580563785439" ID="ID_1193289202" MODIFIED="1580563863814" TEXT="Unit Test Environment">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1580563800105" ID="ID_1282979503" MODIFIED="1581337032876" TEXT="Integration Test Environment">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580563834563" FOLDED="true" ID="ID_585020028" MODIFIED="1618880880709" TEXT="Ad-hoc Test Environment">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1580565271301" ID="ID_1103923230" MODIFIED="1580565274385" TEXT="Docker">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1580947976980" ID="ID_1401146499" MODIFIED="1580947987042" TEXT="Virtual Machine">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1618345585858" ID="ID_141152880" LINK="#ID_1932818956" MODIFIED="1618880108608" TEXT="Automated Pipeline "/>
 </node>
 </node>
-</node>
-<node CREATED="1561256123376" ID="ID_1850186943" MODIFIED="1561256603609" TEXT="Production">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618345585858" ID="ID_141152880" LINK="#ID_1932818956" MODIFIED="1618880313114" TEXT="Automated Pipeline "/>
-</node>
-<node CREATED="1580563276745" ID="ID_45955999" MODIFIED="1580563283507" TEXT="Change Management">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-</node>
-<node CREATED="1561156710848" ID="ID_417306774" MODIFIED="1618880884791" POSITION="right">
+<node CREATED="1561156710848" ID="ID_417306774" MODIFIED="1618409069844" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -573,9 +355,9 @@
 </html></richcontent>
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1561213490096" FOLDED="true" ID="ID_112888288" MODIFIED="1618880880709" TEXT="Stack">
+<node CREATED="1561213490096" ID="ID_112888288" MODIFIED="1618880157697" TEXT="Stack">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1561754196067" FOLDED="true" ID="ID_185870057" MODIFIED="1618880880709">
+<node CREATED="1561754196067" FOLDED="true" ID="ID_185870057" MODIFIED="1618880189051">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -590,6 +372,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1561258133619" ID="ID_130603789" LINK="#ID_437460015" MODIFIED="1580946268305">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -655,7 +438,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1561754239862" FOLDED="true" ID="ID_1478510419" MODIFIED="1618880880709">
+<node CREATED="1561754239862" FOLDED="true" ID="ID_1478510419" MODIFIED="1618880189051">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -670,6 +453,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1561258037747" ID="ID_1047342636" LINK="#ID_1932818956" MODIFIED="1580947123063">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -750,7 +534,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1561754199360" FOLDED="true" ID="ID_657577180" MODIFIED="1618880880709">
+<node CREATED="1561754199360" FOLDED="true" ID="ID_657577180" MODIFIED="1618880189051">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -765,6 +549,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1560512179567" ID="ID_906009799" LINK="#ID_982319677" MODIFIED="1580947285862" TEXT="Test">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -775,7 +560,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1561754203562" FOLDED="true" ID="ID_1972211364" MODIFIED="1618880880709">
+<node CREATED="1561754203562" FOLDED="true" ID="ID_1972211364" MODIFIED="1618880189051">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -790,6 +575,7 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
 <node CREATED="1580946820864" ID="ID_259350774" LINK="#ID_579638188" MODIFIED="1580946835184" TEXT="Package Release">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -816,7 +602,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1561754236797" ID="ID_712838574" LINK="#ID_1105506534" MODIFIED="1580947745943">
+<node CREATED="1561754236797" ID="ID_712838574" LINK="#ID_1105506534" MODIFIED="1618880195493">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -831,31 +617,22 @@
   </body>
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="closed"/>
 </node>
-<node CREATED="1561754250392" ID="ID_1911951783" LINK="#ID_1643212578" MODIFIED="1580947766981" TEXT="Culture">
+<node CREATED="1561754250392" ID="ID_1911951783" LINK="#ID_1643212578" MODIFIED="1618880195493" TEXT="Culture">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="closed"/>
 </node>
-<node CREATED="1618332829465" FOLDED="true" ID="ID_1558477552" MODIFIED="1618880880709" TEXT="Infrastructure">
+<node CREATED="1618332829465" ID="ID_1558477552" MODIFIED="1618880261184" TEXT="Infrastructure">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1618353542786" FOLDED="true" ID="ID_788572192" MODIFIED="1618880880709" TEXT="Cloud">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1618353547305" ID="ID_1686992362" MODIFIED="1618353549116" TEXT="AWS"/>
-<node CREATED="1618353549633" ID="ID_22823659" MODIFIED="1618353553013" TEXT="Google Cloud"/>
-<node CREATED="1618353557961" ID="ID_990754285" MODIFIED="1618353560525" TEXT="Azure"/>
-</node>
-<node CREATED="1618880428991" ID="ID_662550255" MODIFIED="1618880456678" TEXT="On Premise">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618354153886" ID="ID_664830257" MODIFIED="1618880456678" TEXT="Virtualization">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1618354157906" ID="ID_863115398" MODIFIED="1618880456678" TEXT="Dockers Containers">
-<font ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="button_ok"/>
+<node CREATED="1618354153886" ID="ID_664830257" MODIFIED="1618880261184" TEXT="Virtualization">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1561156710848" ID="ID_1643212578" MODIFIED="1618880884791" POSITION="left">
+<node CREATED="1561156710848" FOLDED="true" ID="ID_1643212578" MODIFIED="1618879735424" POSITION="left">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -868,7 +645,8 @@
 </html></richcontent>
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="folder"/>
-<node CREATED="1561156922814" FOLDED="true" ID="ID_284583337" MODIFIED="1618880880709" TEXT="Continuing Education">
+<icon BUILTIN="closed"/>
+<node CREATED="1561156922814" FOLDED="true" ID="ID_284583337" MODIFIED="1618409067067" TEXT="Continuing Education">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1618332556456" ID="ID_437371299" MODIFIED="1618332572106">
 <richcontent TYPE="NODE"><html>
@@ -885,7 +663,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1561756061622" FOLDED="true" ID="ID_1195832005" MODIFIED="1618880880709">
+<node CREATED="1561756061622" FOLDED="true" ID="ID_1195832005" MODIFIED="1618354307787">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -905,7 +683,7 @@
 <node CREATED="1561756183759" ID="ID_1090451672" MODIFIED="1580945700639" TEXT="Confluence"/>
 </node>
 </node>
-<node CREATED="1561156922814" FOLDED="true" ID="ID_423511767" MODIFIED="1618880880709" TEXT="Commitment">
+<node CREATED="1561156922814" FOLDED="true" ID="ID_423511767" MODIFIED="1618354307787" TEXT="Commitment">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1561306436907" ID="ID_1587091865" LINK="#ID_1263394487" MODIFIED="1618333157412">
 <richcontent TYPE="NODE"><html>
@@ -927,12 +705,12 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1561755642554" FOLDED="true" ID="ID_666309831" MODIFIED="1618880880709" TEXT="Process">
+<node CREATED="1561755642554" FOLDED="true" ID="ID_666309831" MODIFIED="1618354307787" TEXT="Process">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1561755728910" ID="ID_1505249018" MODIFIED="1561755735589" TEXT="Due Dilligence">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1561757101309" FOLDED="true" ID="ID_815982526" MODIFIED="1618880880709">
+<node CREATED="1561757101309" FOLDED="true" ID="ID_815982526" MODIFIED="1618354307787">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -951,12 +729,12 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1580947795060" FOLDED="true" ID="ID_1786720944" MODIFIED="1618880880709" TEXT="Agile">
+<node CREATED="1580947795060" FOLDED="true" ID="ID_1786720944" MODIFIED="1618354307787" TEXT="Agile">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1607515002118" ID="ID_3133484" MODIFIED="1607515006372" TEXT="Sprints">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1607515009501" FOLDED="true" ID="ID_1288847739" MODIFIED="1618880880709" TEXT="Lanes">
+<node CREATED="1607515009501" FOLDED="true" ID="ID_1288847739" MODIFIED="1618354307787" TEXT="Lanes">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1607515075439" ID="ID_126674401" MODIFIED="1607515198728" TEXT="Ideas">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
@@ -987,7 +765,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1607514858828" FOLDED="true" ID="ID_521891188" MODIFIED="1618880880709" TEXT="PDCA Cycle">
+<node CREATED="1607514858828" FOLDED="true" ID="ID_521891188" MODIFIED="1618354307787" TEXT="PDCA Cycle">
 <node CREATED="1607515022690" ID="ID_1985276381" MODIFIED="1607515033624" TEXT="Plan">
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -1001,7 +779,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1607514875748" FOLDED="true" ID="ID_1880928519" MODIFIED="1618880880709" TEXT="An&#xe1;lise Estruturada">
+<node CREATED="1607514875748" FOLDED="true" ID="ID_1880928519" MODIFIED="1618354307787" TEXT="An&#xe1;lise Estruturada">
 <node CREATED="1607515041568" ID="ID_1591652291" MODIFIED="1607515043584" TEXT="An&#xe1;lise"/>
 <node CREATED="1607515046660" ID="ID_1060122909" MODIFIED="1607515049303" TEXT="Defini&#xe7;&#xe3;o"/>
 <node CREATED="1607515049984" ID="ID_1784787403" MODIFIED="1607515054328" TEXT="Constru&#xe7;&#xe3;o"/>
