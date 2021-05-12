@@ -6,4 +6,4 @@ Este cenário apresenta links de referências para os assuntos
 
 # I - References
 
-* [DevOps Tutorial for Beginners](https://www.youtube.com/watch?v=hQcFE0RD0cQ)
+* https://www.youtube.com/watch?v=_OOtEtHEuVc
