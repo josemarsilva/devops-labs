@@ -2,9 +2,10 @@
 
 ## 1. Introdução
 
-Este cenário apresenta links de referências para os assuntos 
+Este laboratório organiza os links de referências para os assuntos *DEVOPS* e *SRE*.
 
 # I - References
 
-* https://www.youtube.com/watch?v=_OOtEtHEuVc
+* [Jornada SRE - dia 1](https://www.youtube.com/watch?v=_OOtEtHEuVc)
 * https://devopsinstitute.com/
+* [Jornada SRE - dia 2](https://www.youtube.com/watch?v=3QPWBylRNcw)
