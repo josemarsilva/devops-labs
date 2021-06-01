@@ -2,9 +2,9 @@
 
 ## 1. Introdução
 
-O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial e a organização os links de conteúdos para referências e demais materiais sobre sobre *SRE*
+O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial e a organização os links de conteúdos para referências e demais materiais sobre *DEVOPS* e *SRE* . Segue o índice:
 
-  * Conteúdo(#2-conteúdo)
+  * [Conteúdo](#2-conteúdo)
     * [Fundamentos e princípios de SRE (Engenharia de Confiabilidade de Sites)](#21-fundamentos-e-princípios-de-sre-engenharia-de-confiabilidade-de-sites)
     * [Definições iniciais e princípios básicos](#211-definições-iniciais-e-princípios-básicos)
     * [Princípios básicos](#212-princípios-básicos)
