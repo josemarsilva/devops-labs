@@ -4,28 +4,29 @@
 
 O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial e a organização os links de conteúdos para referências e demais materiais sobre sobre *SRE*
 
-* Índice do Conteúdo
-  * Fundamentos e princípios de SRE (Engenharia de Confiabilidade de Sites)
-  * Definições iniciais e princípios básicos
-  * Princípios básicos
-  * A posição do profissional de SRE em uma _Squad_
-  * Padrões a serem seguidos e evitados
-  * Glossário de terminologias
-  * Diferenças entre SRE vs DEVOPS
-  * Ganhos econômicos com SRE
-  * Os fluxos de trabalho de SRE vs DEVOPS
-    *  DEVOPS - Fluxo de trabalho
-    *  SRE - Fluxo de trabalho
-  * Pirâmide de práticas de SRE
-  * Mapa de Competências do profissional de SRE
-    * Qual é a finalidade deste papel ou função?
-    * Quais são as responsabilidades?
-    * Quais são as atividades ou tarefas?
-    * Quais são as competências técnicas indispensáveis
-    * Quais são as competências técnicas desejáveis
-    * Quais são as competências comportamentais indispensáveis
-    * Qual o perfil comportamental indicado?
-    * Quais são os principais desafios e complexidades
+  * Conteúdo(#2-conteúdo)
+    * [Fundamentos e princípios de SRE (Engenharia de Confiabilidade de Sites)](#21-fundamentos-e-princípios-de-sre-engenharia-de-confiabilidade-de-sites)
+    * [Definições iniciais e princípios básicos](#211-definições-iniciais-e-princípios-básicos)
+    * [Princípios básicos](#212-princípios-básicos)
+    * [A posição do profissional de SRE em uma Squad](#213-a-posição-do-profissional-de-sre-em-uma-squad)
+    * [Padrões a serem seguidos e evitados](#214-padrões-a-serem-seguidos-e-evitados)
+    * [Glossário de terminologias](#215-glossário-de-terminologias)
+    * [Diferenças entre SRE vs DEVOPS](#216-diferenças-entre-sre-vs-devops)
+    * [Ganhos econômicos com SRE](#217-ganhos-econômicos-com-sre)
+    * [Os fluxos de trabalho de SRE vs DEVOPS](#218-os-fluxos-de-trabalho-de-sre-vs-devops)
+      * [DEVOPS - Fluxo de trabalho](#devops---fluxo-de-trabalho)
+      * [SRE - Fluxo de trabalho](#sre---fluxo-de-trabalho)
+    * [Pirâmide de práticas de SRE](#219-pirâmide-de-práticas-de-sre)
+    * [Mapa de Competências do profissional de SRE](#2110-mapa-de-competências-do-profissional-de-sre)
+      * [Qual é a finalidade deste papel ou função?](#qual-é-a-finalidade-deste-papel-ou-função)
+      * [Quais são as responsabilidades?](#quais-são-as-responsabilidades)
+      * [Quais são as atividades ou tarefas?](#quais-são-as-atividades-ou-tarefas)
+      * [Quais são as competências técnicas indispensáveis](#quais-são-as-competências-técnicas-indispensáveis)
+      * [Quais são as competências técnicas desejáveis](#quais-são-as-competências-técnicas-desejáveis)
+      * [Quais são as competências comportamentais indispensáveis](#quais-são-as-competências-comportamentais-indispensáveis)
+      * [Qual o perfil comportamental indicado?](#qual-o-perfil-comportamental-indicado)
+      * [Quais são os principais desafios e complexidades](#quais-são-os-principais-desafios-e-complexidades)
+  * [Referências](#i---references)
 
 
 ## 2. Conteúdo
@@ -286,3 +287,7 @@ Os seguintes anti-padrões devem ser evitados:
 * [Jornada SRE - dia 1](https://www.youtube.com/watch?v=_OOtEtHEuVc)
 * [Jornada SRE - dia 2](https://www.youtube.com/watch?v=3QPWBylRNcw)
 * https://devopsinstitute.com/
+* https://sre.google/books/
+  * https://static.googleusercontent.com/media/sre.google/pt-BR//static/pdf/building_secure_and_reliable_systems.pdf
+  * https://sre.google/workbook/table-of-contents/
+* https://github.com/LuckyDudeThakur/EBooks/blob/master/Accelerate%20-%20Building%20and%20Scaling%20High%20Performing%20Technology%20Organisations%20-%20Nicole%20Fergrson.pdf
