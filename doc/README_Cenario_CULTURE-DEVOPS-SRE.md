@@ -12,7 +12,7 @@ O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial 
     * [Padrões a serem seguidos e evitados](#214-padrões-a-serem-seguidos-e-evitados)
     * [Glossário de terminologias](#215-glossário-de-terminologias)
     * [Diferenças entre SRE vs DEVOPS](#216-diferenças-entre-sre-vs-devops)
-    * [Ganhos econômicos com SRE](#217-ganhos-econômicos-com-sre)
+    * [Possibilidade de Ganhos com SRE](#217-possibilidade-de-ganhos-com-sre)
     * [Os fluxos de trabalho de SRE vs DEVOPS](#218-os-fluxos-de-trabalho-de-sre-vs-devops)
       * [DEVOPS - Fluxo de trabalho](#devops---fluxo-de-trabalho)
       * [SRE - Fluxo de trabalho](#sre---fluxo-de-trabalho)
@@ -36,8 +36,9 @@ O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial 
 #### 2.1.1. Definições iniciais e princípios básicos
 
 * o termo SRE engenheiros da Google em 2003, compartilhado externamente em 2008
-* método de gerenciamento de operações e serviços dentro da plataforma tornando o uso dos recuros eficientes tendo como foco a confiabilidade do sistema
+* método de gerenciamento de operações e serviços dentro da plataforma tornando o uso dos recursos eficientes tendo como foco a confiabilidade do sistema
 * o SRE é um recurso que usa a abordagem de engenharia de sofware às operações de TI
+
 
 #### 2.1.2. Princípios básicos
 
@@ -71,7 +72,7 @@ Os seguintes anti-padrões devem ser evitados:
 #### 2.1.5. Glossário de terminologias
 
 * SLO: Service Level Objective - o quão bom o sistema deve estar
-* SLI: Service Level Identificator - mensuarar os serviços por métricas
+* SLI: Service Level Identificator - mensurar os serviços por métricas
 * SLA: Service Level Agreement - acordo entre provedor e cliente
 * ERROR BUDGET: Limite de falhas sistêmicas sem penalização
 * BLAMELESS: Foco em soluções sistêmicas e não em pessoas
@@ -91,11 +92,23 @@ Os seguintes anti-padrões devem ser evitados:
                                      ---+    +---
 ```
 
-#### 2.1.7. Ganhos econômicos com SRE
+#### 2.1.7. Possibilidade de Ganhos com SRE
 
 * as empresas perceberam que os gastos pós implatanção dos sistemas são muito maiores que os gastos de desenvolvimento
 * é preciso reservar 50% para melhorias sistemas e outros 50% para verificação e redução de TOIL
 * o profissional ganha protagonismo e não fica esperando um incidente cair no colo para começar a trabalhar
+* possibilidade de ganhos com uso de engenharia da confiabilidade:
+  * redução do MTTR (tempo médio de reparo) e o MTBF (tempo médio entre falhas)
+  * lançamentos mais rápido de: atualizações de versões e correções de falhas
+  * redução de risco através de automação
+  * maior retenção de recursos, tornando trabalhos operacionais atraentes e interessantes
+  * maior alinhamento entre desenvolvimento e operações através de recursos compartilhados
+  * sistemas 100% observáveis e resilientes
+  * equilíbrio entre requisitos funcionais e não funcionais
+  * monitoração da experiência do usuário final
+  * diminuição de TOIL: melhoria após refinamento de processos operacionais repetitivos
+  * automação: resposta a incidentes através de alarmes de anomalia e criação de tickets com múltiplas serveridades
+  * quanto mais observável o sistema, menor necessidade de intervenções não planejadas e menor o tempo de resolução de questões complexas
 
 #### 2.1.8. Os fluxos de trabalho de SRE vs DEVOPS
 
@@ -145,7 +158,13 @@ Os seguintes anti-padrões devem ser evitados:
 * Foundation & Comunicação
   * Identificar e Mapear: brainstorm inicial com equipes envolvidas, refinamento de processos e mapeamento dos sistemas
 * Monitoring & Incident Response
-  * Instrumentar e automatizar: definição de SLI's e SLO's, instrumentação de serviços críticos, criação de alertas e automação no processo de resposta à falhas. 4 Golden Signals: latência, saturação, tráfego ou taxa de erro. VALET: Volumetria, Availability, Latência, Taxa de Error e Tickets)
+  * Instrumentar e automatizar: definição de SLI's e SLO's, instrumentação de serviços críticos, criação de alertas e automação no processo de resposta à falhas.
+  * 4 Golden Signals: 
+    * latência: tempo de execução de um request de um serviço
+    * tráfego: atual demanda aplicada ao serviço
+    * taxa de erro: visão das taxas de problemas nos requests
+    * saturação: utilização vs capacidade máxima
+  * VALET: Volumetria, Availability, Latência, Taxa de Error e Tickets
 * Observability & Post Mortens
   * Evolução do monitoramento: concentrar e estruturar logs de eventos e relatórios. Definir, melhorar e integrar dashboards de infra, negócio e APM.
 * Test & Releasing
@@ -291,3 +310,4 @@ Os seguintes anti-padrões devem ser evitados:
   * https://static.googleusercontent.com/media/sre.google/pt-BR//static/pdf/building_secure_and_reliable_systems.pdf
   * https://sre.google/workbook/table-of-contents/
 * https://github.com/LuckyDudeThakur/EBooks/blob/master/Accelerate%20-%20Building%20and%20Scaling%20High%20Performing%20Technology%20Organisations%20-%20Nicole%20Fergrson.pdf
+* https://www.youtube.com/watch?v=Hyi2IOJnOP0
