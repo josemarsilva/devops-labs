@@ -35,7 +35,7 @@ O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial 
 
 #### 2.1.1. Definições iniciais e princípios básicos
 
-* o termo SRE engenheiros da Google em 2003, compartilhado externamente em 2008
+* o termo SRE (Site Reliablity Engineering) engenheiros da Google em 2003, compartilhado externamente em 2008
 * método de gerenciamento de operações e serviços dentro da plataforma tornando o uso dos recursos eficientes tendo como foco a confiabilidade do sistema
 * o SRE é um recurso que usa a abordagem de engenharia de sofware às operações de TI
 
@@ -311,3 +311,4 @@ Os seguintes anti-padrões devem ser evitados:
   * https://sre.google/workbook/table-of-contents/
 * https://github.com/LuckyDudeThakur/EBooks/blob/master/Accelerate%20-%20Building%20and%20Scaling%20High%20Performing%20Technology%20Organisations%20-%20Nicole%20Fergrson.pdf
 * https://www.youtube.com/watch?v=Hyi2IOJnOP0
+* https://www.redhat.com/en/topics/devops/what-is-sre
