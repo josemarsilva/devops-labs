@@ -42,19 +42,19 @@ O objetivo deste laboratório é prover um conteúdo crítico de estudo inicial 
 
 #### 2.1.2. Princípios básicos
 
-a) atender as SLO's com consequencias contratuais; 
-b) trabalhar de forma a tornar o dia de amanhã melhor do que o dia de hoje; 
-c) ter a capacidade de regular a carga do trabalho para o cliente
+* atender as SLO's com consequencias contratuais;
+* trabalhar de forma a tornar o dia de amanhã melhor do que o dia de hoje; 
+* ter a capacidade de regular a carga do trabalho para o cliente
 
 #### 2.1.3. A posição do profissional de SRE em uma _Squad_
-a) assumir a postura de um "key position"
-b) Princípios de Lean IT: 
+a. assumir a postura de um "key position"
+b. Princípios de Lean IT: 
   * valor
   * fluxo de valor
   * fluxo contínuo
   * produção puxada
   * melhoria contínua
-c) não despresar a metodologia mas não esquecer do cliente
+c. não despresar a metodologia mas não esquecer do cliente
   * DEV -> DEVOPS -> SRE -> OPS
 
 #### 2.1.4. Padrões a serem seguidos e evitados
@@ -82,12 +82,13 @@ Os seguintes anti-padrões devem ser evitados:
 #### 2.1.6. Diferenças entre SRE vs DEVOPS
 
 ```txt
+    SRE                                           DEVOPS
                                      ---+    +---
   * Objetivo primário: confiabilidade   |    |  * Objetivo primário: velocidade do release
     - Operações                         |    |    - Delivery
     - Resposta a incidentes             |    |    - Automação de release
-    - Post Mortem                       |    |    - Builds e ambiente
-    - Monitoramento, eventos alertas    | vs |    - Gestão de configuração
+    - Post Mortem                       | vs |    - Builds e ambiente
+    - Monitoramento, eventos alertas    |    |    - Gestão de configuração
     - Planejamento e capacidade         |    |    - Infraestrutura como código
                                      ---+    +---
 ```
