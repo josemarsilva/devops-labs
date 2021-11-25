@@ -1,51 +1,14 @@
-`devops-labs/doc/README_OracleCloudInfrastructure.md` - Template Git Project
+`devops-labs/doc/README_INFRA-OracleCloudInfrastructure.md` - Evaluation Oracle Cloud
 
 ## 1. Introdução
 
 Este repositório contém as documentações e os artefatos do laboratório com  **Oracle Cloud Infraestructure**.
 
-* Tabela de Conteúdo
-  * Introdução
-  * Documentação
-    * Diagrama de Caso de Uso (Use Case Diagram)
-    * Diagrama de Implantação (Deploy Diagram)
-    * Diagrama de BPMN (Business Process Modeling Notation)
-    * Diagrama de Mapa Mental (Mind Map Diagram)
-    * Estratégia de Branches (Branch Strategy Workflow)
-    * Diagrama de Pacotes Classes (Packages and Class Class Diagram)
-    * Diagrama de Sequencia (Sequence Diagram)
-    * Notas de atenção e Avisos
-    * Glossário de Termos (Glossary)
-  * Projeto
-    * Pré-Requisitos, Pré-Condições e Premissas
-    * Guia do Desenvolvedor e Administrador
-    * Guia de Implantação, Configuração e Instalação
-    * Guia de Execução, Demonstração e Cenários de Teste
-	* Guia de Estudo
-    * Design Patterns, Standard, Conventions and Best Practices
-  * I - Referências
-
-
 ## 2. Documentação
-
-### 2.1. Diagrama de Caso de Uso (Use Case Diagram)
-
-![UseCaseDiagram-Context.png](./doc/uml-diagrams/UseCaseDiagram-Context.png) 
-
 
 ### 2.2. Diagrama de Implantação (Deploy Diagram)
 
 ![DeployDiagram-Context.png](./doc/uml-diagrams/DeployDiagram-Context.png) 
-
-
-### 2.3. Diagrama de BPMN (Business Process Modeling Notation)
-
-![BpmnDiagram-Context.png](./doc/bpmn-diagrams/BpmnDiagram-Context.png) 
-
-
-### 2.4. Diagrama de Mapa Mental (Mind Map Diagram)
-
-![MindMapDiagram-Context.png](./doc/mind-maps/MindMapDiagram-Context.png) 
 
 
 ### 2.5. Estratégia de Branches (Branch Strategy Workflow)
@@ -53,21 +16,6 @@ Este repositório contém as documentações e os artefatos do laboratório com 
 Sugestão de [estratégia de branches e workflow](https://github.com/josemarsilva/eval-git#38-estrat%C3%A9gia-de-gerenciamento-de-branches) :
 * `master`: pronto para produção
 * `develop`: último desenvolvimento pronto para produção
-
-
-### 2.6. Diagrama de Pacotes Classes (Packages and Class Class Diagram)
-
-![ClassDiagram-Context.png](./doc/uml-diagrams/ClassDiagram-Context.png) 
-
-
-### 2.7. Diagrama de Sequencia (Sequence Diagram)
-
-![SequenceDiagram-Context.png](./doc/uml-diagrams/SequenceDiagram.png) 
-
-
-### 2.8. Notas de atenção e Avisos (Notice and information)
-
-*  n/a
 
 
 ### 2.9. Glossário de Termos (Glossary)
