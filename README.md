@@ -7,7 +7,7 @@ O objetivo deste projeto é compilar, organizar, documentar e compartilhar __cen
 
 
 ### 1.2. O que é DevOps
-O DevOps é um conjunto de práticas, ferramentas e técnicas que automatizam os processos entre equipes de desenvolvimento de software e a equipe de operação e infraestrutura de TI para que possam criar, testar, liberar e entregar softwares de maneira mais rápida e confiável. Não há consenso sobre uma metodologia única ou padrão. Cada empresa constrói a sua prática.
+O DevOps é um conjunto de práticas, ferramentas e técnicas que automatizam os processos entre equipes de desenvolvimento de software e a equipe de operação e infraestrutura de TI para que possam criar, testar, liberar e entregar softwares de maneira mais rápida e confiável. Não há consenso sobre uma metodologia única ou padrão. Cada empresa constrói a sua prática. Deixo aqui uma referência para a [definição de DevOps pela Wikipedia](https://pt.wikipedia.org/wiki/DevOps).
 
 
 ### 1.3. Como os cenários estão organizados
