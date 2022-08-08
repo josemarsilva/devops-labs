@@ -56,7 +56,7 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 | lab-08 [`Cenario_CULTURE-DEVOPS-SRE`](./md/README_Cenario_CULTURE-DEVOPS-SRE.md)  | Internet Bookmarks de material de estudo sobre os assuntos: *DEVOPS* e *SRE*. | |
 | lab-09 [`Cenario_INFRA-OracleCloudInfrastructure-kubernetes-podman`](https://github.com/josemarsilva/oracle-cloud-linux-podman)  | Oracle Cloud Infrastructure - Kubernetes, Linux and Podman  | |
 | lab-10 [`Cenario_INFRA-OnPremisseLocalMachineWindows-kubernetes-podman`](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#328-kubernetes---kind)  | Oracle Cloud Infrastructure - Kubernetes, Windows, Docker, Kind | |
-| lab-11 [`Cenario_Pipeline-AzureDevOps-Java`](./md/README_Cenario_Pipeline-AzureDevOps-Java.md)
+| lab-11 [`Cenario_Pipeline-AzureDevOps-Java`](./md/README_Cenario_Pipeline-AzureDevOps-Java.md) | Azure DevOps - Pipeline - HelloWorld | |
 
 ---
 ## I - Referências
