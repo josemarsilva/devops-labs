@@ -102,10 +102,42 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
     * Version Control: `Git`
     * Work item Process: `Basic`
 
-![Azure DevOps - New Project](images/azure-devops-pipeline-04.png)
+![Azure DevOps - New Project](images/azure-devops-pipeline-05.png)
 
 
-### 3.5.5. Executar _Run_ o `Pipeline` no Azure DevOps
+### 3.5.5. Criar um novo `Pipeline` no Azure DevOps
+
+* Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/` clique no botão sobre o link no menu lateral esquerdo `Pipelines` em seguida no clique no botão `Create Pipeline`
+
+![Azure DevOps - Create Pipeline](images/azure-devops-pipeline-06.png)
+
+* Em formulário `New Pipeline` na aba `Connect` preencha os campos:
+  * Where is your code: `GitHub (yaml)`
+    * _Login into GitHub using credentials username and password if necessary_
+  * Select repository: `https://github.com/josemarsilva/azure-devops-pipeline-helloworld`
+    * _Repository may be empty_
+    * _Approve and install Azure DevOps Pipelines - Configure Repository access_: `Only select repository`
+    * _Login into Azure DevOps using credentials username and password if necessary_
+  * Configure your pipeline
+    * **Se***** você escolheu um repositorio vazio **Então** escolha `Starter Pipeline` **Senão** escolha `Existing Azure Pipeline YAML file`
+  * Review your pipeline YAML
+    * Observe que será sugerido um arquivo de configuração YAML default básico de `# Starter pipeline, Start with a minimal pipeline that you can customize to build and deploy your code. Add steps that build, run tests, deploy, and more: https://aka.ms/yaml`
+    * Observe que o código sugerido contempla uma imagem `pool: vmImage: ubuntu-latest`
+    * Clique no botão `Save and Run`
+  * Save changes to pipeline and Run
+    * Em dialogbox `Save and run` preencha os campos:
+      * Commit message: `Set up CI with Azure Pipelines` com a mensagem da mudança no pipeline
+      * Clique no botão  `Save and Run`
+
+* Troubleshooting: 
+  * **Se** durante a execução obtiver o erro `##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request` 
+  * **Então** você pode estar usando uma conta de avaliação gratuita e precisa solicitar a permissão de paralelismo. https://stackoverflow.com/questions/68405027/how-to-resolve-no-hosted-parallelism-has-been-purchased-or-granted-in-free-tie
+    * Clique no link a seguir para fazer a solicitação de paralelismo em conta gratuita. Preencha o seu nome, seu e-mail associado a conta Azure DevOps e a URL da sua Organização
+
+![Azure DevOps - Request Parallel processing - Fill Form](images/azure-devops-pipeline-07.png)
+
+![Azure DevOps - Request Parallel processing - Send Form](images/azure-devops-pipeline-08.png)
+
 
 
 ## I - Referências
