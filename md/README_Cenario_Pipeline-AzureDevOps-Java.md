@@ -95,11 +95,14 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 ![Azure DevOps - New Project](images/azure-devops-pipeline-04.png)
 
 * Em formulário `Create a project to get started` preencha os campos:
-  * Project Name: `MyLabProject-01`
-  * Description: `MyLabProject-01`
-  * Visibility: `Provate`
-  * Advanced - Version Control: `Git`
-  * Advanced - Work item Process: `Basic`
+  * Project Name: `MyLabAzurePrj-01`
+  * Description: `My Laboratory Azure Project - 01`
+  * Visibility: `Private`
+  * Advanced
+    * Version Control: `Git`
+    * Work item Process: `Basic`
+
+![Azure DevOps - New Project](images/azure-devops-pipeline-04.png)
 
 
 ### 3.5.5. Executar _Run_ o `Pipeline` no Azure DevOps
