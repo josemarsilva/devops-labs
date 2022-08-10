@@ -123,15 +123,15 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
   * em seguida no link do novo pipeline criado `<MyAzureAccount>.azure-devops-pipeline-helloworld`
   * em seguida clique no link `Run Pipeline` no topo superior direito
 
-![Azure DevOps - Run Pipeline](azure-devops-pipeline-09.png)
-![Azure DevOps - Run Pipeline - dialogbox](azure-devops-pipeline-10.png)
+![Azure DevOps - Run Pipeline](images/azure-devops-pipeline-09.png)
+![Azure DevOps - Run Pipeline - dialogbox](images/azure-devops-pipeline-10.png)
 
 * Na dialogbox `Run Pipeline` na aba `Connect` preencha os campos:
   * Commit: com uma mensagem de texto para ser gravada junto com a execução
   * Clique no botão `Run Pipeline`
 * Clique sobre o link `Jobs` para ver os detalhes da execução
 
-![Azure DevOps - Run Pipeline - Job details](azure-devops-pipeline-11.png)
+![Azure DevOps - Run Pipeline - Job details](images/azure-devops-pipeline-11.png)
 
 
 ## I - Referências
