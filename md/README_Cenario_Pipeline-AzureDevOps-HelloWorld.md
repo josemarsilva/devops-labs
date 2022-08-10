@@ -1,4 +1,4 @@
-`./md/README_Cenario_Pipeline-AzureDevOps-Java.md` - Pipeline Java on Azure DevOps
+`./md/README_Cenario_Pipeline-AzureDevOps-HelloWorld.md` - Pipeline Azure DevOps HelloWorld
 
 ## 1. Introdução
 
@@ -13,9 +13,6 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
   * [3.1. Pré-Requisitos, Pré-Condições e Premissas](#31-pré-requisitos-pré-condições-e-premissas)
     + [3.1.1. Tecnologias e ferramentas](#311-tecnologias-e-ferramentas)
     + [3.1.2. Ferramental de apoio](#312-ferramental-de-apoio)
-  * [3.2. Guia do Desenvolvedor e Administrador](#32-guia-do-desenvolvedor-e-administrador)
-  * [3.3. Guia de Implantação, Configuração e Instalação](#33-guia-de-implantação-configuração-e-instalação)
-  * [3.4. Guia de Demonstração e Teste](#34-guia-de-demonstração-e-teste)
   * [3.5. Guia de Estudo](#35-guia-de-estudo)
 - [I - Referências](#i---referências)
 
@@ -40,26 +37,6 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 * Ferramenta: [Draw.IO](https://app.diagrams.net/) (only for diagrams design and documentation)
 * Ferramenta: [FreeMind for Windows](https://freemind.br.uptodown.com/windows)
-
-
-### 3.3. Guia de Implantação, Configuração e Instalação
-
-* n/a
-
-
-### 3.2. Guia do Desenvolvedor e Administrador
-
-* n/a
-
-
-### 3.3. Guia de Implantação, Configuração e Instalação
-
-* n/a
-
-
-### 3.4. Guia de Demonstração e Teste
-
-* n/a
 
 
 ### 3.5. Guia de Estudo
@@ -90,7 +67,7 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 ### 3.5.4. Criar um novo `Project` no Azure DevOps
 
-* Em `https://dev.azure.com/MyLabAzureOrg/` clique no botão sobre o link no menu lateral esquerdo `New Project`
+* Em `https://dev.azure.com/MyLabAzureOrg/` clique no link no menu lateral esquerdo `New Project`
 
 ![Azure DevOps - New Project](images/azure-devops-pipeline-04.png)
 
@@ -107,7 +84,7 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 ### 3.5.5. Criar um novo `Pipeline` no Azure DevOps
 
-* Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/` clique no botão sobre o link no menu lateral esquerdo `Pipelines` em seguida no clique no botão `Create Pipeline`
+* Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/` clique no link no menu lateral esquerdo `Pipelines` em seguida no clique no botão `Create Pipeline`
 
 ![Azure DevOps - Create Pipeline](images/azure-devops-pipeline-06.png)
 
@@ -138,6 +115,23 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 ![Azure DevOps - Request Parallel processing - Send Form](images/azure-devops-pipeline-08.png)
 
+
+### 3.5.6. Executar o novo `Pipeline` no Azure DevOps
+
+
+* Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/` clique no link no menu lateral esquerdo `Pipelines`
+  * em seguida no link do novo pipeline criado `<MyAzureAccount>.azure-devops-pipeline-helloworld`
+  * em seguida clique no link `Run Pipeline` no topo superior direito
+
+![Azure DevOps - Run Pipeline](azure-devops-pipeline-09.png)
+![Azure DevOps - Run Pipeline - dialogbox](azure-devops-pipeline-10.png)
+
+* Na dialogbox `Run Pipeline` na aba `Connect` preencha os campos:
+  * Commit: com uma mensagem de texto para ser gravada junto com a execução
+  * Clique no botão `Run Pipeline`
+* Clique sobre o link `Jobs` para ver os detalhes da execução
+
+![Azure DevOps - Run Pipeline - Job details](azure-devops-pipeline-11.png)
 
 
 ## I - Referências
