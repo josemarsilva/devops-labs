@@ -5,7 +5,7 @@
 Este repositório contém os artefatos do projeto / laboratório **LAB-12: Pipeline Azure DevOps on a Self Hosted Agent** abaixo do projeto [devp´s=çabs](../README.md). Este laboratório consiste em:
 * Instalar e configurar um Self Hosted Agent em uma máquina local
 * Configurar o DevOps Azure para usar o Self Hosted Agent remotamente para algumas tarefas de pipeline
-* Configurar um Pipeline que 
+* Configurar um Pipeline da tarefa remota executada pelo Self Hosted Agent 
 * Explorar os recursos e funcionalidades básicas do produto
 
 ##### Table of Contents  
@@ -22,7 +22,14 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-12: Pipel
 
 ## 2. Documentação
 
-* n/a
+### 2.2. Diagrama de Implantação (Deploy Diagram)
+
+![DeployDiagram-Context.png](./uml-diagrams/FreeStyleDiagram-Cenario_Pipeline-AzureDevOps-SelfHostedAgent.png) 
+
+### 2.3. Diagrama de BPMN (Business Process Modeling Notation)
+
+![BPMN-Cenario_Pipeline-AzureDevOps-SelfHostedAgent.png](./bpmn-diagrams/BPMN-Cenario_Pipeline-AzureDevOps-SelfHostedAgent.png) 
+
 
 
 ## 3. Projeto / Laboratório
@@ -49,6 +56,8 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-12: Pipel
 * https://www.youtube.com/watch?v=8Vkxbx-zM5w
 
 ### 3.5.2. Pré-Requisitos
+
+* Laboratório [11 - Cenario Pipeline AzureDevOps HelloWorld](README_Cenario_Pipeline-AzureDevOps-HelloWorld.md) que ensina criar *conta*, *organização* e *projeto*
 
 * Conta `<MyAzureAccount>` no serviço da [Azure DevOps](https://dev.azure.com/)
 
@@ -187,8 +196,10 @@ steps:
 	* Branch: `main`
 	* Path: `/pipeline-self-hosted-agent.yml`
 * Clique `Save`
+* Renomeie o nome do pipeline para `pipeline-self-hosted-agent`
 * Clique `Run`
 * Observe a execução na console da máquina SelfHostedAgent
+
 
 ```powershell
 PS C:\Apps\agent> .\run.cmd
