@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipeline de Java on Azure DevOps** abaixo do projeto [devp´s=çabs](../README.md). Este laboratório consiste em:
+Este repositório contém os artefatos do projeto / laboratório **LAB-11: Azure DevOps - Pipeline - HelloWorld** abaixo do projeto [devops-labs](../README.md). Este laboratório consiste em:
 * Configurar o DevOps Azure para o Pipeline
 * Explorar os recursos e funcionalidades básicas do produto
 
