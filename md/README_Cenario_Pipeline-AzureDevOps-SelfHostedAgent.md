@@ -2,8 +2,10 @@
 
 ## 1. Introdução
 
-Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipeline Azure DevOps on a Self Hosted Agent** abaixo do projeto [devp´s=çabs](../README.md). Este laboratório consiste em:
-* Configurar o DevOps Azure para o Pipeline
+Este repositório contém os artefatos do projeto / laboratório **LAB-12: Pipeline Azure DevOps on a Self Hosted Agent** abaixo do projeto [devp´s=çabs](../README.md). Este laboratório consiste em:
+* Instalar e configurar um Self Hosted Agent em uma máquina local
+* Configurar o DevOps Azure para usar o Self Hosted Agent remotamente para algumas tarefas de pipeline
+* Configurar um Pipeline que 
 * Explorar os recursos e funcionalidades básicas do produto
 
 ##### Table of Contents  
@@ -31,7 +33,7 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 * Azure DevOps Account, Azure DevOps Organization, Azure DevOps Project
   * https://github.com/josemarsilva/devops-labs/blob/master/md/README_Cenario_Pipeline-AzureDevOps-HelloWorld.md
-* Azure DevOps: Pipeline
+* Azure DevOps: Pipeline, Self Hosted Agent
 
 #### 3.1.2. Ferramental de apoio
 

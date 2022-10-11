@@ -57,6 +57,7 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 | lab-09 [`Cenario_INFRA-OracleCloudInfrastructure-kubernetes-podman`](https://github.com/josemarsilva/oracle-cloud-linux-podman)  | Oracle Cloud Infrastructure - Kubernetes, Linux and Podman  | |
 | lab-10 [`Cenario_INFRA-OnPremisseLocalMachineWindows-kubernetes-podman`](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#328-kubernetes---kind)  | Oracle Cloud Infrastructure - Kubernetes, Windows, Docker, Kind | |
 | lab-11 [`README_Cenario_Pipeline-AzureDevOps-HelloWorld`](./md/README_Cenario_Pipeline-AzureDevOps-HelloWorld.md) | Azure DevOps - Pipeline - HelloWorld | |
+| lab-12 [`README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent`](./md/README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent.md) | Azure DevOps - Pipeline - Self Hosted Agent | |
 
 ---
 ## I - Referências
