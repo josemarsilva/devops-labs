@@ -47,13 +47,13 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 ### 3.5.2. Pré-Requisitos
 
-* Conta `MyAzureAccount` no serviço da [Azure DevOps](https://dev.azure.com/)
+* Conta `<MyAzureAccount>` no serviço da [Azure DevOps](https://dev.azure.com/)
 
 ![Azure DevOps - Home Page](images/azure-devops-pipeline-01.png)
 
 ### 3.5.3. Criar uma nova `Organization` no Azure DevOps
 
-* Em `https://dev.azure.com/MyAzureAccount/` clique no menu lateral esquerdo `New Organization`
+* Em `https://dev.azure.com/<MyAzureAccount>/` clique no menu lateral esquerdo `New Organization`
 
 ![Azure DevOps - New Organization](images/azure-devops-pipeline-02.png)
 
