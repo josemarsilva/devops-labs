@@ -65,7 +65,7 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 * Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/` clique no link da `Project settings` (ícone de engrenagem) e última opção no menu lateral esquerdo em seguida no clique no botão `Agent pools` abaixo de `Pipelines` em seguida no botão `Add pool`
 
-![Azure DevOps - Self Hosted Agent 01](azure-devops-selfhostedagent-01.png)
+![Azure DevOps - Self Hosted Agent 01](./images/azure-devops-selfhostedagent-01.png)
 
 * Em formulário `Add agent pool` preencha os campos:
   * Pool type: `Self-hosted`
@@ -76,9 +76,9 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-XX: Pipel
 
 * Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/_settings/agentqueues` click sobre o link `MySelfHostedAgent` e em seguida clique na aba `Agent` e no botão `New agent`
 
-![Azure DevOps - Self Hosted Agent 02](azure-devops-selfhostedagent-02.png)
+![Azure DevOps - Self Hosted Agent 02](./images/azure-devops-selfhostedagent-02.png)
 
-![Azure DevOps - Self Hosted Agent 03](azure-devops-selfhostedagent-03.png)
+![Azure DevOps - Self Hosted Agent 03](./images/azure-devops-selfhostedagent-03.png)
 
 
 * Em formulário `Get the agent`:
@@ -102,9 +102,9 @@ PS C:Apps\agent> Add-Type -AssemblyName System.IO.Compression.FileSystem ; [Syst
 	  * Deployment Group: `read & manage`
 	  * Click `Create` button at the botton form
 
-![Azure DevOps - Self Hosted Agent 04](azure-devops-selfhostedagent-04.png)
-![Azure DevOps - Self Hosted Agent 05](azure-devops-selfhostedagent-05.png)
-![Azure DevOps - Self Hosted Agent 06](azure-devops-selfhostedagent-06.png)
+![Azure DevOps - Self Hosted Agent 04](./images/azure-devops-selfhostedagent-04.png)
+![Azure DevOps - Self Hosted Agent 05](./images/azure-devops-selfhostedagent-05.png)
+![Azure DevOps - Self Hosted Agent 06](./images/azure-devops-selfhostedagent-06.png)
 
 
 * Obtenha o Token para o próximo passo:
