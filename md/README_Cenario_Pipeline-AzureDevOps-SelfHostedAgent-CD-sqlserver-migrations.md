@@ -36,7 +36,6 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-13: Pipel
 #### 3.1.1. Tecnologias e ferramentas
 
 * Azure DevOps Account, Azure DevOps Organization, Azure DevOps Project
-  * https://github.com/josemarsilva/devops-labs/blob/master/md/README_Cenario_Pipeline-AzureDevOps-HelloWorld.md
 * Azure DevOps: Pipeline, Self Hosted Agent
 
 #### 3.1.2. Ferramental de apoio
@@ -57,6 +56,9 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-13: Pipel
 
 * Laboratório [11 - Cenario Pipeline AzureDevOps HelloWorld](README_Cenario_Pipeline-AzureDevOps-HelloWorld.md) que ensina criar conta, organização e projeto
 * Laboratório [12 Cenario Pipeline AzureDevOps Self Hosted Agent](README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent.md) que ensina criar e configurar o agent pool
+* Ferramenta [sqlserver-migrations](https://github.com/josemarsilva/sqlserver-migrations)
+
+
 * Conta `<MyAzureAccount>` no serviço da [Azure DevOps](https://dev.azure.com/)
 
 ![Azure DevOps - Home Page](images/azure-devops-pipeline-01.png)
