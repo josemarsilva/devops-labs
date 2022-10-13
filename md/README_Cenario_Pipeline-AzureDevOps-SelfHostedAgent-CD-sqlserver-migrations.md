@@ -89,7 +89,7 @@ Este repositório contém os artefatos do projeto / laboratório **LAB-13: Pipel
 
 * Em `https://dev.azure.com/MyLabAzureOrg/MyLabAzurePrj-01/_build` clique `New pipeline`
   * Where is your code: `Azure Repos Git`
-  * Select a repository: `pipeline-continuous-deployment`
+  * Select a repository: `continuous-deployment`
     * Configure your pipeline: `Existing Azure Pipelines YAML file`
 	* Branch: `main`
 	* Path: `/pipeline-continuous-deployment.yml`
