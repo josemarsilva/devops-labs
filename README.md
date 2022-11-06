@@ -58,7 +58,7 @@ A medida que a maturidade das práticas e experiências são ampliadas, faz-se n
 | lab-10 [`Cenario_INFRA-OnPremisseLocalMachineWindows-kubernetes-podman`](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#328-kubernetes---kind)  | Oracle Cloud Infrastructure - Kubernetes, Windows, Docker, Kind | |
 | lab-11 [`README_Cenario_Pipeline-AzureDevOps-HelloWorld`](./md/README_Cenario_Pipeline-AzureDevOps-HelloWorld.md) | Azure DevOps - Pipeline - HelloWorld | |
 | lab-12 [`README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent`](./md/README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent.md) | Azure DevOps - Pipeline - Self Hosted Agent | |
-| lab-13 [`README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent-CD-sqlserver-migrations`](./md/README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent-CD-sqlserver-migrations.md) | Azure DevOps - Pipeline - Continuous Deployment - Self Hosted Agent | |
+| lab-13 [`README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent-CD-sqlserver-migrations`](./md/README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent-CD-sqlserver-migrations.md) | Azure DevOps - Pipeline - Continuous Deployment - Self Hosted Agent | lab-12 [`README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent`](./md/README_Cenario_Pipeline-AzureDevOps-SelfHostedAgent.md)  |
 
 
 
